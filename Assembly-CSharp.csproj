@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{3ec9dedb-4fc5-4031-8813-c5c156ac3c35}</ProjectGuid>
+    <ProjectGuid>{423928c9-3023-bbf0-6cc9-4529a361d908}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -364,31 +364,31 @@
         <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.1f1\Editor\Data\Managed\UnityEngine\UnityEditor.UnityConnectModule.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.StandardEvents">
-        <HintPath>C:\Users\eliza\Desktop\rpg-system-ulsan2022-3P\Library\PackageCache\com.unity.analytics@3.6.12\AnalyticsStandardEvents\Unity.Analytics.StandardEvents.dll</HintPath>
+        <HintPath>C:\Users\eliza\Desktop\SegundoParcial_rpgSystem_PV\Library\PackageCache\com.unity.analytics@3.6.12\AnalyticsStandardEvents\Unity.Analytics.StandardEvents.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.Editor">
-        <HintPath>C:\Users\eliza\Desktop\rpg-system-ulsan2022-3P\Library\PackageCache\com.unity.analytics@3.6.12\Unity.Analytics.Editor.dll</HintPath>
+        <HintPath>C:\Users\eliza\Desktop\SegundoParcial_rpgSystem_PV\Library\PackageCache\com.unity.analytics@3.6.12\Unity.Analytics.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Burst.Unsafe">
-        <HintPath>C:\Users\eliza\Desktop\rpg-system-ulsan2022-3P\Library\PackageCache\com.unity.burst@1.6.5\Unity.Burst.Unsafe.dll</HintPath>
+        <HintPath>C:\Users\eliza\Desktop\SegundoParcial_rpgSystem_PV\Library\PackageCache\com.unity.burst@1.6.5\Unity.Burst.Unsafe.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Burst.Cecil.Mdb">
-        <HintPath>C:\Users\eliza\Desktop\rpg-system-ulsan2022-3P\Library\PackageCache\com.unity.burst@1.6.5\Unity.Burst.CodeGen\Unity.Burst.Cecil.Mdb.dll</HintPath>
+        <HintPath>C:\Users\eliza\Desktop\SegundoParcial_rpgSystem_PV\Library\PackageCache\com.unity.burst@1.6.5\Unity.Burst.CodeGen\Unity.Burst.Cecil.Mdb.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Burst.Cecil.Pdb">
-        <HintPath>C:\Users\eliza\Desktop\rpg-system-ulsan2022-3P\Library\PackageCache\com.unity.burst@1.6.5\Unity.Burst.CodeGen\Unity.Burst.Cecil.Pdb.dll</HintPath>
+        <HintPath>C:\Users\eliza\Desktop\SegundoParcial_rpgSystem_PV\Library\PackageCache\com.unity.burst@1.6.5\Unity.Burst.CodeGen\Unity.Burst.Cecil.Pdb.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Burst.Cecil">
-        <HintPath>C:\Users\eliza\Desktop\rpg-system-ulsan2022-3P\Library\PackageCache\com.unity.burst@1.6.5\Unity.Burst.CodeGen\Unity.Burst.Cecil.dll</HintPath>
+        <HintPath>C:\Users\eliza\Desktop\SegundoParcial_rpgSystem_PV\Library\PackageCache\com.unity.burst@1.6.5\Unity.Burst.CodeGen\Unity.Burst.Cecil.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Burst.Cecil.Rocks">
-        <HintPath>C:\Users\eliza\Desktop\rpg-system-ulsan2022-3P\Library\PackageCache\com.unity.burst@1.6.5\Unity.Burst.CodeGen\Unity.Burst.Cecil.Rocks.dll</HintPath>
+        <HintPath>C:\Users\eliza\Desktop\SegundoParcial_rpgSystem_PV\Library\PackageCache\com.unity.burst@1.6.5\Unity.Burst.CodeGen\Unity.Burst.Cecil.Rocks.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.Tracker">
-        <HintPath>C:\Users\eliza\Desktop\rpg-system-ulsan2022-3P\Library\PackageCache\com.unity.analytics@3.6.12\Unity.Analytics.Tracker.dll</HintPath>
+        <HintPath>C:\Users\eliza\Desktop\SegundoParcial_rpgSystem_PV\Library\PackageCache\com.unity.analytics@3.6.12\Unity.Analytics.Tracker.dll</HintPath>
     </Reference>
     <Reference Include="clipper_library">
-        <HintPath>C:\Users\eliza\Desktop\rpg-system-ulsan2022-3P\Library\PackageCache\com.unity.cinemachine@2.8.4\Runtime\ThirdParty\clipper_library.dll</HintPath>
+        <HintPath>C:\Users\eliza\Desktop\SegundoParcial_rpgSystem_PV\Library\PackageCache\com.unity.cinemachine@2.8.4\Runtime\ThirdParty\clipper_library.dll</HintPath>
     </Reference>
     <Reference Include="mscorlib">
         <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.1f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\mscorlib.dll</HintPath>
@@ -991,159 +991,159 @@
         <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.1f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\netstandard.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VSCode.Editor">
-        <HintPath>C:\Users\eliza\Desktop\rpg-system-ulsan2022-3P\Library\ScriptAssemblies\Unity.VSCode.Editor.dll</HintPath>
+        <HintPath>C:\Users\eliza\Desktop\SegundoParcial_rpgSystem_PV\Library\ScriptAssemblies\Unity.VSCode.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.RenderPipelines.Universal.Shaders">
-        <HintPath>C:\Users\eliza\Desktop\rpg-system-ulsan2022-3P\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Shaders.dll</HintPath>
+        <HintPath>C:\Users\eliza\Desktop\SegundoParcial_rpgSystem_PV\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Shaders.dll</HintPath>
     </Reference>
     <Reference Include="Unity.RenderPipelines.Universal.Runtime">
-        <HintPath>C:\Users\eliza\Desktop\rpg-system-ulsan2022-3P\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Runtime.dll</HintPath>
+        <HintPath>C:\Users\eliza\Desktop\SegundoParcial_rpgSystem_PV\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.CacheServer">
-        <HintPath>C:\Users\eliza\Desktop\rpg-system-ulsan2022-3P\Library\ScriptAssemblies\UnityEditor.CacheServer.dll</HintPath>
+        <HintPath>C:\Users\eliza\Desktop\SegundoParcial_rpgSystem_PV\Library\ScriptAssemblies\UnityEditor.CacheServer.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Addressables">
-        <HintPath>C:\Users\eliza\Desktop\rpg-system-ulsan2022-3P\Library\ScriptAssemblies\Unity.Addressables.dll</HintPath>
+        <HintPath>C:\Users\eliza\Desktop\SegundoParcial_rpgSystem_PV\Library\ScriptAssemblies\Unity.Addressables.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
-        <HintPath>C:\Users\eliza\Desktop\rpg-system-ulsan2022-3P\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll</HintPath>
+        <HintPath>C:\Users\eliza\Desktop\SegundoParcial_rpgSystem_PV\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualStudio.Editor">
-        <HintPath>C:\Users\eliza\Desktop\rpg-system-ulsan2022-3P\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll</HintPath>
+        <HintPath>C:\Users\eliza\Desktop\SegundoParcial_rpgSystem_PV\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.GameFoundation.Components.Editor">
-        <HintPath>C:\Users\eliza\Desktop\rpg-system-ulsan2022-3P\Library\ScriptAssemblies\Unity.GameFoundation.Components.Editor.dll</HintPath>
+        <HintPath>C:\Users\eliza\Desktop\SegundoParcial_rpgSystem_PV\Library\ScriptAssemblies\Unity.GameFoundation.Components.Editor.dll</HintPath>
     </Reference>
     <Reference Include="PPv2URPConverters">
-        <HintPath>C:\Users\eliza\Desktop\rpg-system-ulsan2022-3P\Library\ScriptAssemblies\PPv2URPConverters.dll</HintPath>
+        <HintPath>C:\Users\eliza\Desktop\SegundoParcial_rpgSystem_PV\Library\ScriptAssemblies\PPv2URPConverters.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline">
-        <HintPath>C:\Users\eliza\Desktop\rpg-system-ulsan2022-3P\Library\ScriptAssemblies\Unity.Timeline.dll</HintPath>
+        <HintPath>C:\Users\eliza\Desktop\SegundoParcial_rpgSystem_PV\Library\ScriptAssemblies\Unity.Timeline.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-        <HintPath>C:\Users\eliza\Desktop\rpg-system-ulsan2022-3P\Library\ScriptAssemblies\Unity.TextMeshPro.dll</HintPath>
+        <HintPath>C:\Users\eliza\Desktop\SegundoParcial_rpgSystem_PV\Library\ScriptAssemblies\Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Burst.Editor">
-        <HintPath>C:\Users\eliza\Desktop\rpg-system-ulsan2022-3P\Library\ScriptAssemblies\Unity.Burst.Editor.dll</HintPath>
+        <HintPath>C:\Users\eliza\Desktop\SegundoParcial_rpgSystem_PV\Library\ScriptAssemblies\Unity.Burst.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Searcher.Editor">
-        <HintPath>C:\Users\eliza\Desktop\rpg-system-ulsan2022-3P\Library\ScriptAssemblies\Unity.Searcher.Editor.dll</HintPath>
+        <HintPath>C:\Users\eliza\Desktop\SegundoParcial_rpgSystem_PV\Library\ScriptAssemblies\Unity.Searcher.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.GameFoundation.Editor">
-        <HintPath>C:\Users\eliza\Desktop\rpg-system-ulsan2022-3P\Library\ScriptAssemblies\Unity.GameFoundation.Editor.dll</HintPath>
+        <HintPath>C:\Users\eliza\Desktop\SegundoParcial_rpgSystem_PV\Library\ScriptAssemblies\Unity.GameFoundation.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.ResourceManager">
-        <HintPath>C:\Users\eliza\Desktop\rpg-system-ulsan2022-3P\Library\ScriptAssemblies\Unity.ResourceManager.dll</HintPath>
+        <HintPath>C:\Users\eliza\Desktop\SegundoParcial_rpgSystem_PV\Library\ScriptAssemblies\Unity.ResourceManager.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
-        <HintPath>C:\Users\eliza\Desktop\rpg-system-ulsan2022-3P\Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
+        <HintPath>C:\Users\eliza\Desktop\SegundoParcial_rpgSystem_PV\Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
     </Reference>
     <Reference Include="Unity.InputSystem">
-        <HintPath>C:\Users\eliza\Desktop\rpg-system-ulsan2022-3P\Library\ScriptAssemblies\Unity.InputSystem.dll</HintPath>
+        <HintPath>C:\Users\eliza\Desktop\SegundoParcial_rpgSystem_PV\Library\ScriptAssemblies\Unity.InputSystem.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Rider.Editor">
-        <HintPath>C:\Users\eliza\Desktop\rpg-system-ulsan2022-3P\Library\ScriptAssemblies\Unity.Rider.Editor.dll</HintPath>
+        <HintPath>C:\Users\eliza\Desktop\SegundoParcial_rpgSystem_PV\Library\ScriptAssemblies\Unity.Rider.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.RenderPipelines.Core.ShaderLibrary">
-        <HintPath>C:\Users\eliza\Desktop\rpg-system-ulsan2022-3P\Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll</HintPath>
+        <HintPath>C:\Users\eliza\Desktop\SegundoParcial_rpgSystem_PV\Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll</HintPath>
     </Reference>
     <Reference Include="Analytics">
-        <HintPath>C:\Users\eliza\Desktop\rpg-system-ulsan2022-3P\Library\ScriptAssemblies\Analytics.dll</HintPath>
+        <HintPath>C:\Users\eliza\Desktop\SegundoParcial_rpgSystem_PV\Library\ScriptAssemblies\Analytics.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Promise">
-        <HintPath>C:\Users\eliza\Desktop\rpg-system-ulsan2022-3P\Library\ScriptAssemblies\Unity.Promise.dll</HintPath>
+        <HintPath>C:\Users\eliza\Desktop\SegundoParcial_rpgSystem_PV\Library\ScriptAssemblies\Unity.Promise.dll</HintPath>
     </Reference>
     <Reference Include="Unity.GameFoundation">
-        <HintPath>C:\Users\eliza\Desktop\rpg-system-ulsan2022-3P\Library\ScriptAssemblies\Unity.GameFoundation.dll</HintPath>
+        <HintPath>C:\Users\eliza\Desktop\SegundoParcial_rpgSystem_PV\Library\ScriptAssemblies\Unity.GameFoundation.dll</HintPath>
     </Reference>
     <Reference Include="Unity.RenderPipelines.Core.Runtime">
-        <HintPath>C:\Users\eliza\Desktop\rpg-system-ulsan2022-3P\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll</HintPath>
+        <HintPath>C:\Users\eliza\Desktop\SegundoParcial_rpgSystem_PV\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
-        <HintPath>C:\Users\eliza\Desktop\rpg-system-ulsan2022-3P\Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
+        <HintPath>C:\Users\eliza\Desktop\SegundoParcial_rpgSystem_PV\Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
     </Reference>
     <Reference Include="Unity.PlasticSCM.Editor">
-        <HintPath>C:\Users\eliza\Desktop\rpg-system-ulsan2022-3P\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll</HintPath>
+        <HintPath>C:\Users\eliza\Desktop\SegundoParcial_rpgSystem_PV\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.DataPrivacy">
-        <HintPath>C:\Users\eliza\Desktop\rpg-system-ulsan2022-3P\Library\ScriptAssemblies\Unity.Analytics.DataPrivacy.dll</HintPath>
+        <HintPath>C:\Users\eliza\Desktop\SegundoParcial_rpgSystem_PV\Library\ScriptAssemblies\Unity.Analytics.DataPrivacy.dll</HintPath>
     </Reference>
     <Reference Include="Unity.GameFoundation.Components">
-        <HintPath>C:\Users\eliza\Desktop\rpg-system-ulsan2022-3P\Library\ScriptAssemblies\Unity.GameFoundation.Components.dll</HintPath>
+        <HintPath>C:\Users\eliza\Desktop\SegundoParcial_rpgSystem_PV\Library\ScriptAssemblies\Unity.GameFoundation.Components.dll</HintPath>
     </Reference>
     <Reference Include="Unity.GameFoundation.DefaultCatalog">
-        <HintPath>C:\Users\eliza\Desktop\rpg-system-ulsan2022-3P\Library\ScriptAssemblies\Unity.GameFoundation.DefaultCatalog.dll</HintPath>
+        <HintPath>C:\Users\eliza\Desktop\SegundoParcial_rpgSystem_PV\Library\ScriptAssemblies\Unity.GameFoundation.DefaultCatalog.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Mathematics">
-        <HintPath>C:\Users\eliza\Desktop\rpg-system-ulsan2022-3P\Library\ScriptAssemblies\Unity.Mathematics.dll</HintPath>
+        <HintPath>C:\Users\eliza\Desktop\SegundoParcial_rpgSystem_PV\Library\ScriptAssemblies\Unity.Mathematics.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TerrainTools">
-        <HintPath>C:\Users\eliza\Desktop\rpg-system-ulsan2022-3P\Library\ScriptAssemblies\Unity.TerrainTools.dll</HintPath>
+        <HintPath>C:\Users\eliza\Desktop\SegundoParcial_rpgSystem_PV\Library\ScriptAssemblies\Unity.TerrainTools.dll</HintPath>
     </Reference>
     <Reference Include="Unity.ShaderGraph.Editor">
-        <HintPath>C:\Users\eliza\Desktop\rpg-system-ulsan2022-3P\Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll</HintPath>
+        <HintPath>C:\Users\eliza\Desktop\SegundoParcial_rpgSystem_PV\Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Cinemachine">
-        <HintPath>C:\Users\eliza\Desktop\rpg-system-ulsan2022-3P\Library\ScriptAssemblies\Cinemachine.dll</HintPath>
+        <HintPath>C:\Users\eliza\Desktop\SegundoParcial_rpgSystem_PV\Library\ScriptAssemblies\Cinemachine.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Burst">
-        <HintPath>C:\Users\eliza\Desktop\rpg-system-ulsan2022-3P\Library\ScriptAssemblies\Unity.Burst.dll</HintPath>
+        <HintPath>C:\Users\eliza\Desktop\SegundoParcial_rpgSystem_PV\Library\ScriptAssemblies\Unity.Burst.dll</HintPath>
     </Reference>
     <Reference Include="com.unity.cinemachine.editor">
-        <HintPath>C:\Users\eliza\Desktop\rpg-system-ulsan2022-3P\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll</HintPath>
+        <HintPath>C:\Users\eliza\Desktop\SegundoParcial_rpgSystem_PV\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.RenderPipelines.Universal.Editor">
-        <HintPath>C:\Users\eliza\Desktop\rpg-system-ulsan2022-3P\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Editor.dll</HintPath>
+        <HintPath>C:\Users\eliza\Desktop\SegundoParcial_rpgSystem_PV\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.GameFoundation.DefaultCatalog.Editor">
-        <HintPath>C:\Users\eliza\Desktop\rpg-system-ulsan2022-3P\Library\ScriptAssemblies\Unity.GameFoundation.DefaultCatalog.Editor.dll</HintPath>
+        <HintPath>C:\Users\eliza\Desktop\SegundoParcial_rpgSystem_PV\Library\ScriptAssemblies\Unity.GameFoundation.DefaultCatalog.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TerrainTools.Editor">
-        <HintPath>C:\Users\eliza\Desktop\rpg-system-ulsan2022-3P\Library\ScriptAssemblies\Unity.TerrainTools.Editor.dll</HintPath>
+        <HintPath>C:\Users\eliza\Desktop\SegundoParcial_rpgSystem_PV\Library\ScriptAssemblies\Unity.TerrainTools.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.RenderPipeline.Universal.ShaderLibrary">
-        <HintPath>C:\Users\eliza\Desktop\rpg-system-ulsan2022-3P\Library\ScriptAssemblies\Unity.RenderPipeline.Universal.ShaderLibrary.dll</HintPath>
+        <HintPath>C:\Users\eliza\Desktop\SegundoParcial_rpgSystem_PV\Library\ScriptAssemblies\Unity.RenderPipeline.Universal.ShaderLibrary.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline.Editor">
-        <HintPath>C:\Users\eliza\Desktop\rpg-system-ulsan2022-3P\Library\ScriptAssemblies\Unity.Timeline.Editor.dll</HintPath>
+        <HintPath>C:\Users\eliza\Desktop\SegundoParcial_rpgSystem_PV\Library\ScriptAssemblies\Unity.Timeline.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary">
-        <HintPath>C:\Users\eliza\Desktop\rpg-system-ulsan2022-3P\Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll</HintPath>
+        <HintPath>C:\Users\eliza\Desktop\SegundoParcial_rpgSystem_PV\Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Mathematics.Editor">
-        <HintPath>C:\Users\eliza\Desktop\rpg-system-ulsan2022-3P\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll</HintPath>
+        <HintPath>C:\Users\eliza\Desktop\SegundoParcial_rpgSystem_PV\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.ScriptableBuildPipeline">
-        <HintPath>C:\Users\eliza\Desktop\rpg-system-ulsan2022-3P\Library\ScriptAssemblies\Unity.ScriptableBuildPipeline.dll</HintPath>
+        <HintPath>C:\Users\eliza\Desktop\SegundoParcial_rpgSystem_PV\Library\ScriptAssemblies\Unity.ScriptableBuildPipeline.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Addressables.Editor">
-        <HintPath>C:\Users\eliza\Desktop\rpg-system-ulsan2022-3P\Library\ScriptAssemblies\Unity.Addressables.Editor.dll</HintPath>
+        <HintPath>C:\Users\eliza\Desktop\SegundoParcial_rpgSystem_PV\Library\ScriptAssemblies\Unity.Addressables.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.GameFoundation.DefaultLayers">
-        <HintPath>C:\Users\eliza\Desktop\rpg-system-ulsan2022-3P\Library\ScriptAssemblies\Unity.GameFoundation.DefaultLayers.dll</HintPath>
+        <HintPath>C:\Users\eliza\Desktop\SegundoParcial_rpgSystem_PV\Library\ScriptAssemblies\Unity.GameFoundation.DefaultLayers.dll</HintPath>
     </Reference>
     <Reference Include="Unity.ScriptableBuildPipeline.Editor">
-        <HintPath>C:\Users\eliza\Desktop\rpg-system-ulsan2022-3P\Library\ScriptAssemblies\Unity.ScriptableBuildPipeline.Editor.dll</HintPath>
+        <HintPath>C:\Users\eliza\Desktop\SegundoParcial_rpgSystem_PV\Library\ScriptAssemblies\Unity.ScriptableBuildPipeline.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.RenderPipelines.Core.Editor">
-        <HintPath>C:\Users\eliza\Desktop\rpg-system-ulsan2022-3P\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll</HintPath>
+        <HintPath>C:\Users\eliza\Desktop\SegundoParcial_rpgSystem_PV\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Gameplay.csproj">
-      <Project>{12e6d07d-5a92-7e0c-1a9b-d87c191e96d7}</Project>
+      <Project>{e36fbcde-bb6f-a607-ccad-94df81279a81}</Project>
       <Name>Gameplay</Name>
     </ProjectReference>
     <ProjectReference Include="Inputs.csproj">
-      <Project>{f27bdf40-df86-9252-a363-a7de33b14037}</Project>
+      <Project>{bd421141-8282-7736-7778-ca3d9e8121e5}</Project>
       <Name>Inputs</Name>
     </ProjectReference>
     <ProjectReference Include="Jobs.csproj">
-      <Project>{f3c4d25b-fff7-51c8-0bf7-a8437f2130c4}</Project>
+      <Project>{fb823bf2-f76a-d5c8-4111-bf05c25c77c4}</Project>
       <Name>Jobs</Name>
     </ProjectReference>
     <ProjectReference Include="Characters.csproj">
-      <Project>{cf2d5f2d-35d9-ae94-632e-dfa18c54d76a}</Project>
+      <Project>{f51c3bb9-16eb-a90c-a0cd-03f428ca899f}</Project>
       <Name>Characters</Name>
     </ProjectReference>
   </ItemGroup>
