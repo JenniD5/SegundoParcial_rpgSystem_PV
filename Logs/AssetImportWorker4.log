@@ -1,0 +1,2055 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.1f1 (3b70a0754835) revision 3895456'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19044) 64bit CoreSingleLanguage' Language: 'es' Physical Memory: 7999 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.1f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker4
+-projectPath
+C:/Users/eliza/Desktop/rpg-system-ulsan2022-3P
+-logFile
+Logs/AssetImportWorker4.log
+-srvPort
+53997
+Successfully changed project path to: C:/Users/eliza/Desktop/rpg-system-ulsan2022-3P
+C:/Users/eliza/Desktop/rpg-system-ulsan2022-3P
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 71.37 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.1f1 (3b70a0754835)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.1f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/eliza/Desktop/rpg-system-ulsan2022-3P/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1050 (ID=0x1c8d)
+    Vendor:   NVIDIA
+    VRAM:     4019 MB
+    Driver:   30.0.15.1179
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.1f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.1f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.1f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56236
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.1f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.012665 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 68.02 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.611 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1611ms)
+		BeginReloadAssembly (94ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (437ms)
+			LoadAssemblies (90ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (104ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (31ms)
+			SetupLoadedEditorAssemblies (247ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (9ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (68ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (119ms)
+				ProcessInitializeOnLoadMethodAttributes (50ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.011458 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 71.34 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Package Manager log level set to [2]
+Mono: successfully reloaded assembly
+- Completed reload, in 10.918 seconds
+Domain Reload Profiling:
+	ReloadAssembly (10919ms)
+		BeginReloadAssembly (151ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (26ms)
+		EndReloadAssembly (10396ms)
+			LoadAssemblies (5746ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (257ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (73ms)
+			SetupLoadedEditorAssemblies (4287ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (1227ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (71ms)
+				BeforeProcessingInitializeOnLoad (118ms)
+				ProcessInitializeOnLoadAttributes (2445ms)
+				ProcessInitializeOnLoadMethodAttributes (409ms)
+				AfterProcessingInitializeOnLoad (16ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (12ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.76 seconds
+Refreshing native plugins compatible for Editor in 1.02 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4896 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 69 unused Assets / (2.2 MB). Loaded Objects now: 5354.
+Memory consumption went from 217.1 MB to 214.8 MB.
+Total: 4.617600 ms (FindLiveObjects: 0.414300 ms CreateObjectMapping: 0.318600 ms MarkObjects: 3.328700 ms  DeleteObjects: 0.554500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 58869.048488 seconds.
+  path: Assets/Scenes/battle/GlobalVolumeProfile.asset
+  artifactKey: Guid(89f409f878823eb408982a8d9d8e3a34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/battle/GlobalVolumeProfile.asset using Guid(89f409f878823eb408982a8d9d8e3a34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eac65ae42ce2c1b70e3172e8c6554c7d') in 1.441015 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Scenes/battle/Volume.png
+  artifactKey: Guid(0de24c42a6d13c6408be698dc421c229) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/battle/Volume.png using Guid(0de24c42a6d13c6408be698dc421c229) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d5e20ef769ffc078ebb782c7f407575') in 0.152276 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 93.006248 seconds.
+  path: Assets/Scenes/battle.unity
+  artifactKey: Guid(210ceb8fb4aa74d4db30b185cc6776f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/battle.unity using Guid(210ceb8fb4aa74d4db30b185cc6776f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4c4baa5463e567535e650ae8d700964') in 0.002462 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 67.649488 seconds.
+  path: Assets/Low Poly Forest Set/FBX/Tree 01.FBX
+  artifactKey: Guid(f9b7ae27f70cced4ca73019c0c2ef5fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Forest Set/FBX/Tree 01.FBX using Guid(f9b7ae27f70cced4ca73019c0c2ef5fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8fb2615d983ac57aefaf477b64d66d23') in 3.596984 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 46.260998 seconds.
+  path: Assets/ControllerPrompts/Example-Prefabs/A-Button(xbox).prefab
+  artifactKey: Guid(1fe2ba1d75c66a346a45a0042750ec7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ControllerPrompts/Example-Prefabs/A-Button(xbox).prefab using Guid(1fe2ba1d75c66a346a45a0042750ec7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a64ff77af941d7484e668077657dfc14') in 0.489682 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/SD_RPG_Heroes_Pack/animations/archergirl/generic/archergirl@att03.fbx
+  artifactKey: Guid(5702ae58e9a0879479b5fa34ab6d7fea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SD_RPG_Heroes_Pack/animations/archergirl/generic/archergirl@att03.fbx using Guid(5702ae58e9a0879479b5fa34ab6d7fea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88ba75ad4c51a79ecb4d3bfeef94a0ad') in 1.344285 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/MedievalTownExteriors/Meshes/Building_a.fbx
+  artifactKey: Guid(bd7499ff3c8bdca46813786bafe4e331) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MedievalTownExteriors/Meshes/Building_a.fbx using Guid(bd7499ff3c8bdca46813786bafe4e331) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '598e0d40f571e046aac8670b1bffc620') in 4.919580 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/MedievalTownExteriors/Prefabs/Building_d.prefab
+  artifactKey: Guid(60a80932f15a9b5428719cf63049a198) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MedievalTownExteriors/Prefabs/Building_d.prefab using Guid(60a80932f15a9b5428719cf63049a198) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4a0d9634e5eacaff0b9f3e90e040a89') in 0.917405 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/MedievalTownExteriors/Prefabs/Barrel.prefab
+  artifactKey: Guid(28f91da9598e39e419f3030684719fcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MedievalTownExteriors/Prefabs/Barrel.prefab using Guid(28f91da9598e39e419f3030684719fcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b63087c39c93f7575d7f53dbcce9c645') in 0.290749 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/MedievalTownExteriors/Meshes/Building_c_collider.fbx
+  artifactKey: Guid(2504be7eb69b8d64eb52456b112b1623) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MedievalTownExteriors/Meshes/Building_c_collider.fbx using Guid(2504be7eb69b8d64eb52456b112b1623) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af9c1f80e50e5a0571515413dd34e241') in 0.243373 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/MedievalTownExteriors/Meshes/Barrel.fbx
+  artifactKey: Guid(9cb9de2fa58928944a5ced7e6b047238) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MedievalTownExteriors/Meshes/Barrel.fbx using Guid(9cb9de2fa58928944a5ced7e6b047238) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '798135d0b296691843e1f5dd065c52d7') in 0.058257 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/MedievalTownExteriors/Meshes/Building_b_collider.fbx
+  artifactKey: Guid(190601c6ad4761d45b65274b5f33fb3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MedievalTownExteriors/Meshes/Building_b_collider.fbx using Guid(190601c6ad4761d45b65274b5f33fb3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'debb32f0e7126d34664aaebc4edbb03e') in 0.066698 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/MedievalTownExteriors/Prefabs/Building_f.prefab
+  artifactKey: Guid(1e44e02e77bb6764c97f423cc75574da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MedievalTownExteriors/Prefabs/Building_f.prefab using Guid(1e44e02e77bb6764c97f423cc75574da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4d1c0c17acad59332702a07b1a97c7b') in 0.198436 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/MedievalTownExteriors/Meshes/Building_d.fbx
+  artifactKey: Guid(4d3f75b896990d94093409da2894e8a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MedievalTownExteriors/Meshes/Building_d.fbx using Guid(4d3f75b896990d94093409da2894e8a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ce48e6c0ab9ca577f6909a56af56ac3') in 0.062612 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/ExampleAssets/Models/brush_low.fbx
+  artifactKey: Guid(aed8c47425ab91f4eb06ce6fe47c3e4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Models/brush_low.fbx using Guid(aed8c47425ab91f4eb06ce6fe47c3e4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de68f29b1ad0e569dc19da5cce910dae') in 0.194861 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/MedievalTownExteriors/Prefabs/Building_a.prefab
+  artifactKey: Guid(5953515103f4b3c4dbd003cda1894775) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MedievalTownExteriors/Prefabs/Building_a.prefab using Guid(5953515103f4b3c4dbd003cda1894775) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c18bc4fee5bf26d330ec0a47b707ab6') in 0.182339 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/SD_RPG_Heroes_Pack/animations/archergirl/generic/archergirl@damage.fbx
+  artifactKey: Guid(730cc667ad5378242a4bad3fc02dca62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SD_RPG_Heroes_Pack/animations/archergirl/generic/archergirl@damage.fbx using Guid(730cc667ad5378242a4bad3fc02dca62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd187258c08aff43265e75ff6632971d3') in 0.088822 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/SD_RPG_Heroes_Pack/animations/archergirl/generic/archergirl@att02.fbx
+  artifactKey: Guid(af96692b22340aa4d85c110300625915) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SD_RPG_Heroes_Pack/animations/archergirl/generic/archergirl@att02.fbx using Guid(af96692b22340aa4d85c110300625915) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1aba6ea571d660a796feb27332820a3d') in 0.112362 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/SD_RPG_Heroes_Pack/animations/archergirl/generic/archergirl@jump.fbx
+  artifactKey: Guid(19993cdb63a2a2147b66329178c2835e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SD_RPG_Heroes_Pack/animations/archergirl/generic/archergirl@jump.fbx using Guid(19993cdb63a2a2147b66329178c2835e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f3cb19fff825bfd641de80475f5d24a') in 0.117201 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/MedievalTownExteriors/Meshes/Building_c.fbx
+  artifactKey: Guid(6a5d1ad4cb7517d4f9337e679d93fa92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MedievalTownExteriors/Meshes/Building_c.fbx using Guid(6a5d1ad4cb7517d4f9337e679d93fa92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1531768f40fecca0aca27c5dc157197b') in 0.141862 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/MedievalTownExteriors/Prefabs/Building_c.prefab
+  artifactKey: Guid(155108fff53c29e45ba3c3bb0c40e6bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MedievalTownExteriors/Prefabs/Building_c.prefab using Guid(155108fff53c29e45ba3c3bb0c40e6bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3b9863ce410a078d7453b09fa96b8fc') in 0.089745 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/SD_RPG_Heroes_Pack/prefabs/archergirl@set.prefab
+  artifactKey: Guid(5f86eb4474aa70744a48265d6a91c6fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SD_RPG_Heroes_Pack/prefabs/archergirl@set.prefab using Guid(5f86eb4474aa70744a48265d6a91c6fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8acbbdd777c7bc2b06642f056c63993e') in 0.940716 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/ControllerPrompts/Example-Prefabs/B-Button(xbox) .prefab
+  artifactKey: Guid(7a1622298c7f5e74e9302bad00af646a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ControllerPrompts/Example-Prefabs/B-Button(xbox) .prefab using Guid(7a1622298c7f5e74e9302bad00af646a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a57723b9e1e7a1c8539beb47883584bf') in 0.017890 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/MedievalTownExteriors/Meshes/Building_e_collider.fbx
+  artifactKey: Guid(d4b73ecf89aca924390b5d6752fb2ca6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MedievalTownExteriors/Meshes/Building_e_collider.fbx using Guid(d4b73ecf89aca924390b5d6752fb2ca6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d8861e88bd02a5f9b5f0578d86a6bd9') in 0.042055 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.913222 seconds.
+  path: Assets/MedievalTownExteriors/Meshes/Cart_a.fbx
+  artifactKey: Guid(84e347959058f664f8aa7ea1fbe027c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MedievalTownExteriors/Meshes/Cart_a.fbx using Guid(84e347959058f664f8aa7ea1fbe027c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5f1e9850f371558555a38bc8f14ce55') in 0.357526 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/StixGames/GrassShader/Example/GameScene/Models/Circle.fbx
+  artifactKey: Guid(3286eea8499ff0144ad07cd2de15a903) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StixGames/GrassShader/Example/GameScene/Models/Circle.fbx using Guid(3286eea8499ff0144ad07cd2de15a903) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ca531f69fcbf96ac83e2c275e557a83') in 0.165804 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/StixGames/GrassShader/Example/AlpineScene/Models/chapel.fbx
+  artifactKey: Guid(1d28f4a883eb89c4f8b375ded80e7a89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StixGames/GrassShader/Example/AlpineScene/Models/chapel.fbx using Guid(1d28f4a883eb89c4f8b375ded80e7a89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '459a398e2adcde81bbb4ac29de0df92d') in 0.620166 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/NEXTLOG_CreaturePack_Part01/Creatures_Slime/Prefabs/Creatures_Slime_002.prefab
+  artifactKey: Guid(68d60866ab26916429ec380c4f928ebb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NEXTLOG_CreaturePack_Part01/Creatures_Slime/Prefabs/Creatures_Slime_002.prefab using Guid(68d60866ab26916429ec380c4f928ebb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Asset 'Ani_Creatures_Slime': Transition 'Idle -> Run' in state 'Idle' doesn't have an Exit Time or any condition, transition will be ignored
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Editor\Src\Animation\StateMachine.cpp line 1845]
+
+Asset 'Ani_Creatures_Slime': Transition 'Idle -> Stun' in state 'Idle' doesn't have an Exit Time or any condition, transition will be ignored
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Editor\Src\Animation\StateMachine.cpp line 1845]
+
+Asset 'Ani_Creatures_Slime': Transition 'Idle -> Hit' in state 'Idle' doesn't have an Exit Time or any condition, transition will be ignored
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Editor\Src\Animation\StateMachine.cpp line 1845]
+
+Asset 'Ani_Creatures_Slime': Transition 'Idle -> Attack' in state 'Idle' doesn't have an Exit Time or any condition, transition will be ignored
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Editor\Src\Animation\StateMachine.cpp line 1845]
+
+Asset 'Ani_Creatures_Slime': Transition 'Run -> Idle' in state 'Run' doesn't have an Exit Time or any condition, transition will be ignored
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Editor\Src\Animation\StateMachine.cpp line 1845]
+
+ -> (artifact id: '3391e50d70e3befb8572cb6983162329') in 4.007001 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/MedievalTownExteriors/Prefabs/Fence_b.prefab
+  artifactKey: Guid(75450dad01decb44b867e81c5a1fd604) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MedievalTownExteriors/Prefabs/Fence_b.prefab using Guid(75450dad01decb44b867e81c5a1fd604) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64128d6afc51d630a82a273f9ef289f4') in 0.205602 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/StixGames/GrassShader/Example/GameScene/Prefabs/FarmHouse.prefab
+  artifactKey: Guid(fa19d8fb52cdf384aa132e48fcc78a76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StixGames/GrassShader/Example/GameScene/Prefabs/FarmHouse.prefab using Guid(fa19d8fb52cdf384aa132e48fcc78a76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0168ad351a0ace7a9e4326665d04fe2e') in 0.326734 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/StixGames/GrassShader/Example/GameScene/Models/Cursor.fbx
+  artifactKey: Guid(8c4da82e890786747a03198c755dd503) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StixGames/GrassShader/Example/GameScene/Models/Cursor.fbx using Guid(8c4da82e890786747a03198c755dd503) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5fe4abd0f77b9e77847f98007eb6e68') in 0.690560 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/NEXTLOG_CreaturePack_Part01/Creatures_Slime/Prefabs/Creatures_Slime_004.prefab
+  artifactKey: Guid(d5abc51209cd29b4893f7e91d3f7274d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NEXTLOG_CreaturePack_Part01/Creatures_Slime/Prefabs/Creatures_Slime_004.prefab using Guid(d5abc51209cd29b4893f7e91d3f7274d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Asset 'Ani_Creatures_Slime': Transition 'Idle -> Run' in state 'Idle' doesn't have an Exit Time or any condition, transition will be ignored
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Editor\Src\Animation\StateMachine.cpp line 1845]
+
+Asset 'Ani_Creatures_Slime': Transition 'Idle -> Stun' in state 'Idle' doesn't have an Exit Time or any condition, transition will be ignored
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Editor\Src\Animation\StateMachine.cpp line 1845]
+
+Asset 'Ani_Creatures_Slime': Transition 'Idle -> Hit' in state 'Idle' doesn't have an Exit Time or any condition, transition will be ignored
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Editor\Src\Animation\StateMachine.cpp line 1845]
+
+Asset 'Ani_Creatures_Slime': Transition 'Idle -> Attack' in state 'Idle' doesn't have an Exit Time or any condition, transition will be ignored
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Editor\Src\Animation\StateMachine.cpp line 1845]
+
+Asset 'Ani_Creatures_Slime': Transition 'Run -> Idle' in state 'Run' doesn't have an Exit Time or any condition, transition will be ignored
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Editor\Src\Animation\StateMachine.cpp line 1845]
+
+ -> (artifact id: '3084e6a62aedba68446ab472bb0ee8e7') in 0.231569 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/MedievalTownExteriors/Particles/Gas.prefab
+  artifactKey: Guid(093102f081492a643880e70d581f3735) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MedievalTownExteriors/Particles/Gas.prefab using Guid(093102f081492a643880e70d581f3735) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec1c8b2925be2b9ffa50da00b818dcb7') in 0.260944 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/MedievalTownExteriors/Prefabs/Logs_a.prefab
+  artifactKey: Guid(1302c983138d8344f81486021c92aa98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MedievalTownExteriors/Prefabs/Logs_a.prefab using Guid(1302c983138d8344f81486021c92aa98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55c5ae571e5931b375fab393dd6583c2') in 0.153486 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/MedievalTownExteriors/Meshes/Fence_c.fbx
+  artifactKey: Guid(e7fb29ed36a41f044a2d8e5cf065efe8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MedievalTownExteriors/Meshes/Fence_c.fbx using Guid(e7fb29ed36a41f044a2d8e5cf065efe8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6d83b973f4fdc68344a5bbc0a465c40') in 0.134321 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/NEXTLOG_CreaturePack_Part01/Creatures_Slime/Prefabs/Creatures_Slime_001.prefab
+  artifactKey: Guid(33e008dd8a7d6914fa8006e370dd1ec6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NEXTLOG_CreaturePack_Part01/Creatures_Slime/Prefabs/Creatures_Slime_001.prefab using Guid(33e008dd8a7d6914fa8006e370dd1ec6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Asset 'Ani_Creatures_Slime': Transition 'Idle -> Run' in state 'Idle' doesn't have an Exit Time or any condition, transition will be ignored
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Editor\Src\Animation\StateMachine.cpp line 1845]
+
+Asset 'Ani_Creatures_Slime': Transition 'Idle -> Stun' in state 'Idle' doesn't have an Exit Time or any condition, transition will be ignored
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Editor\Src\Animation\StateMachine.cpp line 1845]
+
+Asset 'Ani_Creatures_Slime': Transition 'Idle -> Hit' in state 'Idle' doesn't have an Exit Time or any condition, transition will be ignored
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Editor\Src\Animation\StateMachine.cpp line 1845]
+
+Asset 'Ani_Creatures_Slime': Transition 'Idle -> Attack' in state 'Idle' doesn't have an Exit Time or any condition, transition will be ignored
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Editor\Src\Animation\StateMachine.cpp line 1845]
+
+Asset 'Ani_Creatures_Slime': Transition 'Run -> Idle' in state 'Run' doesn't have an Exit Time or any condition, transition will be ignored
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Editor\Src\Animation\StateMachine.cpp line 1845]
+
+ -> (artifact id: '121c74036c9907d14ff0640c56a20911') in 0.134625 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/MedievalTownExteriors/Prefabs/Hay_b.prefab
+  artifactKey: Guid(2f1d35023a410684195ebaff92d15273) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MedievalTownExteriors/Prefabs/Hay_b.prefab using Guid(2f1d35023a410684195ebaff92d15273) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6122f060327546fce299d375a33b7966') in 0.137888 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/NEXTLOG_CreaturePack_Part01/Creatures_Slime/Prefabs/Creatures_Slime_005.prefab
+  artifactKey: Guid(e7d66dda8a89bff42850d1fe945e0815) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NEXTLOG_CreaturePack_Part01/Creatures_Slime/Prefabs/Creatures_Slime_005.prefab using Guid(e7d66dda8a89bff42850d1fe945e0815) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Asset 'Ani_Creatures_Slime': Transition 'Idle -> Run' in state 'Idle' doesn't have an Exit Time or any condition, transition will be ignored
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Editor\Src\Animation\StateMachine.cpp line 1845]
+
+Asset 'Ani_Creatures_Slime': Transition 'Idle -> Stun' in state 'Idle' doesn't have an Exit Time or any condition, transition will be ignored
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Editor\Src\Animation\StateMachine.cpp line 1845]
+
+Asset 'Ani_Creatures_Slime': Transition 'Idle -> Hit' in state 'Idle' doesn't have an Exit Time or any condition, transition will be ignored
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Editor\Src\Animation\StateMachine.cpp line 1845]
+
+Asset 'Ani_Creatures_Slime': Transition 'Idle -> Attack' in state 'Idle' doesn't have an Exit Time or any condition, transition will be ignored
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Editor\Src\Animation\StateMachine.cpp line 1845]
+
+Asset 'Ani_Creatures_Slime': Transition 'Run -> Idle' in state 'Run' doesn't have an Exit Time or any condition, transition will be ignored
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Editor\Src\Animation\StateMachine.cpp line 1845]
+
+ -> (artifact id: 'f3abf3ff338c10a585941113644ad241') in 0.210066 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/MedievalTownExteriors/Meshes/Hay_b.fbx
+  artifactKey: Guid(e30eaf679693c3a4da5b53730289c7c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MedievalTownExteriors/Meshes/Hay_b.fbx using Guid(e30eaf679693c3a4da5b53730289c7c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ec102d177a7f0681efda2bcd1d6967d') in 0.150623 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/NEXTLOG_CreaturePack_Part01/Creatures_Slime/Effects/Prefabs/FX_Slime_Attack_Pupl_001.prefab
+  artifactKey: Guid(9c79613016987f74489078506f0bc9fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NEXTLOG_CreaturePack_Part01/Creatures_Slime/Effects/Prefabs/FX_Slime_Attack_Pupl_001.prefab using Guid(9c79613016987f74489078506f0bc9fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c313175a6f6c21b29f9be4788088252d') in 0.025920 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/NEXTLOG_CreaturePack_Part01/Creatures_Slime/Effects/Prefabs/FX_Slime_Seed_Gren_001.prefab
+  artifactKey: Guid(ce0e8d81733c92c44b5ec72b7ba71e73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NEXTLOG_CreaturePack_Part01/Creatures_Slime/Effects/Prefabs/FX_Slime_Seed_Gren_001.prefab using Guid(ce0e8d81733c92c44b5ec72b7ba71e73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5072bded2c7f198f2c539275b97a8180') in 0.035767 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000092 seconds.
+  path: Assets/StixGames/GrassShader/Example/AlpineScene/Models/medium_house2.fbx
+  artifactKey: Guid(0d2301912dcb0e04b97b4d754346691d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StixGames/GrassShader/Example/AlpineScene/Models/medium_house2.fbx using Guid(0d2301912dcb0e04b97b4d754346691d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebb3739abf685ddce500dc4ba40ccf60') in 0.116111 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/ControllerPrompts/Example-Prefabs/Menu-Button(xbox).prefab
+  artifactKey: Guid(b8522d82efcdabc49bcfce230d48a3ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ControllerPrompts/Example-Prefabs/Menu-Button(xbox).prefab using Guid(b8522d82efcdabc49bcfce230d48a3ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '273c1b67dc53adc6ef5bdf692f893594') in 0.042073 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/StixGames/GrassShader/Example/AlpineScene/Models/Low Poly Tree 4.fbx
+  artifactKey: Guid(7ca6636f34da48744a2895d1c12fd026) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StixGames/GrassShader/Example/AlpineScene/Models/Low Poly Tree 4.fbx using Guid(7ca6636f34da48744a2895d1c12fd026) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51375de9096b672d20f5a407a1022031') in 0.063505 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/MedievalTownExteriors/Prefabs/Hay_c.prefab
+  artifactKey: Guid(923ec327cbb4a4545af1dcb073589c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MedievalTownExteriors/Prefabs/Hay_c.prefab using Guid(923ec327cbb4a4545af1dcb073589c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7b2e69c3f7e9cb9fee701cc350d9270') in 0.061902 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/MedievalTownExteriors/Prefabs/Hay_a.prefab
+  artifactKey: Guid(d2455836f34483a42b6613a8fc03a747) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MedievalTownExteriors/Prefabs/Hay_a.prefab using Guid(d2455836f34483a42b6613a8fc03a747) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '420c302b503840e52d86f49bfa43a139') in 0.193937 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000098 seconds.
+  path: Assets/Low Poly Forest Set/FBX/Ground 01.FBX
+  artifactKey: Guid(a4383eac1cf18894e968f3f6eccb9427) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Forest Set/FBX/Ground 01.FBX using Guid(a4383eac1cf18894e968f3f6eccb9427) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2cc6b75f0fd573361b22bb3be0ebebb4') in 0.085113 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/NEXTLOG_CreaturePack_Part01/Creatures_Slime/Animations/Creatures_Slime_Run_001.FBX
+  artifactKey: Guid(f9fb6cb4840bd47458e5fec121b97dd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NEXTLOG_CreaturePack_Part01/Creatures_Slime/Animations/Creatures_Slime_Run_001.FBX using Guid(f9fb6cb4840bd47458e5fec121b97dd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9781b0df90c565225cb653d15cf828f6') in 0.025054 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000081 seconds.
+  path: Assets/NEXTLOG_CreaturePack_Part01/Creatures_Slime/Effects/Prefabs/FX_Slime_HitSplash_001.prefab
+  artifactKey: Guid(8580514952b0e224187e829a3136ebdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NEXTLOG_CreaturePack_Part01/Creatures_Slime/Effects/Prefabs/FX_Slime_HitSplash_001.prefab using Guid(8580514952b0e224187e829a3136ebdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a0c79c07b58fdd381c170d252edee48') in 0.161190 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/MedievalTownExteriors/Prefabs/Fence_c.prefab
+  artifactKey: Guid(b2e876bb6e0ba0a42b628002c60efe3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MedievalTownExteriors/Prefabs/Fence_c.prefab using Guid(b2e876bb6e0ba0a42b628002c60efe3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36d90debbe290bf6fd1482f5c1322b4c') in 0.158398 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000084 seconds.
+  path: Assets/Low Poly Forest Set/FBX/Mushroom 01.FBX
+  artifactKey: Guid(977a18d24893f9c4faf9dc37163c351b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Forest Set/FBX/Mushroom 01.FBX using Guid(977a18d24893f9c4faf9dc37163c351b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63ff9fb830a18e73b9d03ea8befe08b5') in 0.071524 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000077 seconds.
+  path: Assets/NEXTLOG_CreaturePack_Part01/Creatures_Slime/Animations/Creatures_Slime_Hit_001.FBX
+  artifactKey: Guid(93d3d0f6a99fd3c4d841bed01429f2b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NEXTLOG_CreaturePack_Part01/Creatures_Slime/Animations/Creatures_Slime_Hit_001.FBX using Guid(93d3d0f6a99fd3c4d841bed01429f2b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2801f9cb4c12b82aaec537230664505e') in 0.017614 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/StixGames/GrassShader/Example/GameScene/Models/FarmHouse.fbx
+  artifactKey: Guid(5f6a0c0e6f58c394b8da8e54460c25ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StixGames/GrassShader/Example/GameScene/Models/FarmHouse.fbx using Guid(5f6a0c0e6f58c394b8da8e54460c25ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11de80fb48db16d0930df7cb49b6ac6b') in 0.034906 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000225 seconds.
+  path: Assets/MedievalTownExteriors/Prefabs/Lantern.prefab
+  artifactKey: Guid(4c1598ecae5595b43a9d6af2b80aca62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MedievalTownExteriors/Prefabs/Lantern.prefab using Guid(4c1598ecae5595b43a9d6af2b80aca62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55f94bfb0fe9a89d4a847922c5d09a35') in 0.567506 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/NEXTLOG_CreaturePack_Part01/Creatures_Slime/Effects/Prefabs/FX_Slime_Seed_Pupl_001.prefab
+  artifactKey: Guid(867afd82406aaf74fabdbc083fa4af4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NEXTLOG_CreaturePack_Part01/Creatures_Slime/Effects/Prefabs/FX_Slime_Seed_Pupl_001.prefab using Guid(867afd82406aaf74fabdbc083fa4af4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc0d66495508ea30d1a14853c2059459') in 0.405327 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/StixGames/GrassShader/Example/AlpineScene/Models/Low Poly Tree 3.fbx
+  artifactKey: Guid(27b3376f8e30c6f48a409559c5142eb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StixGames/GrassShader/Example/AlpineScene/Models/Low Poly Tree 3.fbx using Guid(27b3376f8e30c6f48a409559c5142eb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1d01a9cef2a3d023ddd381a253e61d2') in 0.143414 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/NEXTLOG_CreaturePack_Part01/Creatures_Slime/Effects/Prefabs/FX_Slime_Stunned_001.prefab
+  artifactKey: Guid(e30c0bf1558eb954f80c4f1e5f5abca1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NEXTLOG_CreaturePack_Part01/Creatures_Slime/Effects/Prefabs/FX_Slime_Stunned_001.prefab using Guid(e30c0bf1558eb954f80c4f1e5f5abca1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10e460e058b3ea1faa02849ee2b76b6d') in 0.848846 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/StixGames/GrassShader/Example/AlpineScene/Models/Low Poly Tree 2.fbx
+  artifactKey: Guid(4f5678a0333bc1646b83e6417712c461) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StixGames/GrassShader/Example/AlpineScene/Models/Low Poly Tree 2.fbx using Guid(4f5678a0333bc1646b83e6417712c461) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bcbca8167554ecdf5b7f6a7445440170') in 0.062345 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/NEXTLOG_CreaturePack_Part01/Creatures_Slime/Prefabs/Creatures_Slime_Elite_001.prefab
+  artifactKey: Guid(606b14c8440befe4aa4d41de1d305a99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NEXTLOG_CreaturePack_Part01/Creatures_Slime/Prefabs/Creatures_Slime_Elite_001.prefab using Guid(606b14c8440befe4aa4d41de1d305a99) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Asset 'Ani_Creatures_Slime': Transition 'Idle -> Run' in state 'Idle' doesn't have an Exit Time or any condition, transition will be ignored
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Editor\Src\Animation\StateMachine.cpp line 1845]
+
+Asset 'Ani_Creatures_Slime': Transition 'Idle -> Stun' in state 'Idle' doesn't have an Exit Time or any condition, transition will be ignored
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Editor\Src\Animation\StateMachine.cpp line 1845]
+
+Asset 'Ani_Creatures_Slime': Transition 'Idle -> Hit' in state 'Idle' doesn't have an Exit Time or any condition, transition will be ignored
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Editor\Src\Animation\StateMachine.cpp line 1845]
+
+Asset 'Ani_Creatures_Slime': Transition 'Idle -> Attack' in state 'Idle' doesn't have an Exit Time or any condition, transition will be ignored
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Editor\Src\Animation\StateMachine.cpp line 1845]
+
+Asset 'Ani_Creatures_Slime': Transition 'Run -> Idle' in state 'Run' doesn't have an Exit Time or any condition, transition will be ignored
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Editor\Src\Animation\StateMachine.cpp line 1845]
+
+ -> (artifact id: 'a5ce0d74ae05b1d54bb00276fa73ea3b') in 1.093828 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/NEXTLOG_CreaturePack_Part01/Creatures_Slime/Prefabs/Creatures_Slime_Elite_002.prefab
+  artifactKey: Guid(f23cb94fc5d6aee47926552e83d03f4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NEXTLOG_CreaturePack_Part01/Creatures_Slime/Prefabs/Creatures_Slime_Elite_002.prefab using Guid(f23cb94fc5d6aee47926552e83d03f4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Asset 'Ani_Creatures_Slime': Transition 'Idle -> Run' in state 'Idle' doesn't have an Exit Time or any condition, transition will be ignored
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Editor\Src\Animation\StateMachine.cpp line 1845]
+
+Asset 'Ani_Creatures_Slime': Transition 'Idle -> Stun' in state 'Idle' doesn't have an Exit Time or any condition, transition will be ignored
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Editor\Src\Animation\StateMachine.cpp line 1845]
+
+Asset 'Ani_Creatures_Slime': Transition 'Idle -> Hit' in state 'Idle' doesn't have an Exit Time or any condition, transition will be ignored
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Editor\Src\Animation\StateMachine.cpp line 1845]
+
+Asset 'Ani_Creatures_Slime': Transition 'Idle -> Attack' in state 'Idle' doesn't have an Exit Time or any condition, transition will be ignored
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Editor\Src\Animation\StateMachine.cpp line 1845]
+
+Asset 'Ani_Creatures_Slime': Transition 'Run -> Idle' in state 'Run' doesn't have an Exit Time or any condition, transition will be ignored
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Editor\Src\Animation\StateMachine.cpp line 1845]
+
+ -> (artifact id: '98766c7f926f812093d250a37fe5d37f') in 0.416089 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/MedievalTownExteriors/Prefabs/Food_b.prefab
+  artifactKey: Guid(43972cadef1914d4f81ad6e4d8678cd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MedievalTownExteriors/Prefabs/Food_b.prefab using Guid(43972cadef1914d4f81ad6e4d8678cd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce0eb2c24673ea45ae078b1899ba3f96') in 1.291992 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/StixGames/GrassShader/Example/AlpineScene/Models/road.fbx
+  artifactKey: Guid(5eda263c2e671d045be02c3baad0f4e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StixGames/GrassShader/Example/AlpineScene/Models/road.fbx using Guid(5eda263c2e671d045be02c3baad0f4e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd16a2e645f005031c9110725abf11cea') in 0.621090 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/StixGames/GrassShader/Example/GameScene/Models/Explosion.fbx
+  artifactKey: Guid(63a58078254bfbc40af8cf6e44468f93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StixGames/GrassShader/Example/GameScene/Models/Explosion.fbx using Guid(63a58078254bfbc40af8cf6e44468f93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29d0e209cfcd960148e233f187524cc1') in 0.035307 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/MedievalTownExteriors/Meshes/Mushroom_b.fbx
+  artifactKey: Guid(75f355bbd6a4def47a15c78a9050ba98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MedievalTownExteriors/Meshes/Mushroom_b.fbx using Guid(75f355bbd6a4def47a15c78a9050ba98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5375da3f6761fc284eee56cf1b0be57') in 0.155630 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/MedievalTownExteriors/Particles/Polen.prefab
+  artifactKey: Guid(02b44bc98512ef547bac7db108a4638c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MedievalTownExteriors/Particles/Polen.prefab using Guid(02b44bc98512ef547bac7db108a4638c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a9578f4c31ec28c69b6ac4f22bf9f2a') in 0.080754 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/MedievalTownExteriors/Meshes/Mushroom_a.fbx
+  artifactKey: Guid(5462d7981caf2b1428cbc434c37493cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MedievalTownExteriors/Meshes/Mushroom_a.fbx using Guid(5462d7981caf2b1428cbc434c37493cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e8e8e4ec5a72537f72ab14b068b868b') in 0.103516 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000075 seconds.
+  path: Assets/ExampleAssets/Prefabs/Paint Supplies.prefab
+  artifactKey: Guid(283e6530a665e4513959d1cd4883682f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Prefabs/Paint Supplies.prefab using Guid(283e6530a665e4513959d1cd4883682f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d9089eee5e53950fab5f16400229520') in 16.630123 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 163.588867 seconds.
+  path: Assets/StixGames/GrassShader/Example/AlpineScene/Textures/Terrain/AlpineGrassDensity.png
+  artifactKey: Guid(643c82add89777b46a273dc6985b709a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StixGames/GrassShader/Example/AlpineScene/Textures/Terrain/AlpineGrassDensity.png using Guid(643c82add89777b46a273dc6985b709a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa247021742108719c105c2f045d689e') in 0.242220 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.298989 seconds.
+  path: Assets/UI Toolkit/UnityThemes/UnityDefaultRuntimeTheme.tss
+  artifactKey: Guid(ed2739dad3158514db03023a2361ac83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI Toolkit/UnityThemes/UnityDefaultRuntimeTheme.tss using Guid(ed2739dad3158514db03023a2361ac83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '807195b53aa088c4af9c1dea69971668') in 1.062094 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/StixGames/GrassShader/Example/AlpineScene/Textures/GrassUnprocessed/BladeOfGrass/BladeOfGrass 14.png
+  artifactKey: Guid(3a01be0d68a34b64a8723a9134b253e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StixGames/GrassShader/Example/AlpineScene/Textures/GrassUnprocessed/BladeOfGrass/BladeOfGrass 14.png using Guid(3a01be0d68a34b64a8723a9134b253e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfe6f60bb570aafa8c182e06550d58e4') in 0.230394 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/StixGames/GrassShader/Example/AlpineScene/Textures/GrassUnprocessed/BladeOfGrass/BladeOfGrass 03.png
+  artifactKey: Guid(60745747e8d998649afc4e58349649cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StixGames/GrassShader/Example/AlpineScene/Textures/GrassUnprocessed/BladeOfGrass/BladeOfGrass 03.png using Guid(60745747e8d998649afc4e58349649cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d416af8ef76d14ce04976e8570f5820') in 0.125492 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/StixGames/GrassShader/Example/AlpineScene/Textures/GrassUnprocessed/BladeOfGrass/BladeOfGrass 06.png
+  artifactKey: Guid(d29238e5c2defd649aa4c4c6f7304f56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StixGames/GrassShader/Example/AlpineScene/Textures/GrassUnprocessed/BladeOfGrass/BladeOfGrass 06.png using Guid(d29238e5c2defd649aa4c4c6f7304f56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f54d1e291b97f83d1d19424289cb17e4') in 0.155601 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/SD_RPG_Heroes_Pack/textures/archergirl.tga
+  artifactKey: Guid(fc779c616568e3a43b2a27349e91c6a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SD_RPG_Heroes_Pack/textures/archergirl.tga using Guid(fc779c616568e3a43b2a27349e91c6a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a375e8c3b7a6bf5a23495e662ed13d30') in 0.493751 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/StixGames/GrassShader/Example/AlpineScene/Textures/GrassUnprocessed/BladeOfGrass/BladeOfGrass 19.png
+  artifactKey: Guid(44f828c504984184194e856c758bc3f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StixGames/GrassShader/Example/AlpineScene/Textures/GrassUnprocessed/BladeOfGrass/BladeOfGrass 19.png using Guid(44f828c504984184194e856c758bc3f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ff3b9ee57a7a190e1a2313f790ee3a4') in 0.136668 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/ExampleAssets/Textures/Props/Construction_Light/ConstructionLight_Albedo.tif
+  artifactKey: Guid(2ec6e1532acb1254f9f3797b5d82db44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Textures/Props/Construction_Light/ConstructionLight_Albedo.tif using Guid(2ec6e1532acb1254f9f3797b5d82db44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbdfd64aa4c823c0ca1406d6a72aad03') in 0.478602 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/NEXTLOG_CreaturePack_Part01/Creatures_Slime/Textures/Creatures_Slime_Elite_001.tga
+  artifactKey: Guid(a8c9083716417c54d8e0a15eaa45e9c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NEXTLOG_CreaturePack_Part01/Creatures_Slime/Textures/Creatures_Slime_Elite_001.tga using Guid(a8c9083716417c54d8e0a15eaa45e9c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4273337c8fdc630aab9bbec4199aa12b') in 2.206127 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Tree_Textures/diffuse.png
+  artifactKey: Guid(03cd5a82abf2a7945929e8485a454f97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tree_Textures/diffuse.png using Guid(03cd5a82abf2a7945929e8485a454f97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9af2319f740879770d3aa47f841aeede') in 0.019613 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/ControllerPrompts/ControllerPromts.png
+  artifactKey: Guid(c193ceae2b07bee48895bfb2ac9e525a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ControllerPrompts/ControllerPromts.png using Guid(c193ceae2b07bee48895bfb2ac9e525a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '871cbcb31551a4a37a55c5c748bc82b1') in 0.701699 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/StixGames/GrassShader/Example/GameScene/Textures/Crater_basecolor.png
+  artifactKey: Guid(5dd5b3aff5357f04a9680df191365c59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StixGames/GrassShader/Example/GameScene/Textures/Crater_basecolor.png using Guid(5dd5b3aff5357f04a9680df191365c59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80d5d2bf3f27045b0b44a7c68b890abe') in 0.295109 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/NEXTLOG_CreaturePack_Part01/Creatures_Slime/Textures/Creatures_Slime_Elite_002.tga
+  artifactKey: Guid(46f450684ad2cbc41bbd15b53c25a976) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NEXTLOG_CreaturePack_Part01/Creatures_Slime/Textures/Creatures_Slime_Elite_002.tga using Guid(46f450684ad2cbc41bbd15b53c25a976) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6838062f064b2fc2531fa54c94d315a0') in 0.029197 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/NEXTLOG_CreaturePack_Part01/Creatures_Slime/Textures/Creatures_Slime_003.tga
+  artifactKey: Guid(15c8eed7f9acf9249a051016faf47100) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NEXTLOG_CreaturePack_Part01/Creatures_Slime/Textures/Creatures_Slime_003.tga using Guid(15c8eed7f9acf9249a051016faf47100) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5f49ba70ff30c4f3d1601c71e4bfaaa') in 0.070174 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/StixGames/GrassShader/Example/AlpineScene/Textures/Ruins/chapel_normal.png
+  artifactKey: Guid(f3ccdfdaefb162d4a807d61d07e9d17a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StixGames/GrassShader/Example/AlpineScene/Textures/Ruins/chapel_normal.png using Guid(f3ccdfdaefb162d4a807d61d07e9d17a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22b414e8a0ee5dd8fe3d8fdc9d05360a') in 0.122842 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/StixGames/GrassShader/Example/Example/Textures/BurnMap.png
+  artifactKey: Guid(6065c97b590ecf345adc393db0342b04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StixGames/GrassShader/Example/Example/Textures/BurnMap.png using Guid(6065c97b590ecf345adc393db0342b04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '443f1ff9362441fe1be8dddaf8872796') in 0.015286 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/StixGames/GrassShader/Example/AlpineScene/Textures/GrassUnprocessed/BladeOfGrass/BladeOfGrass 15.png
+  artifactKey: Guid(8abdfdf28a561194598a747d35b75c3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StixGames/GrassShader/Example/AlpineScene/Textures/GrassUnprocessed/BladeOfGrass/BladeOfGrass 15.png using Guid(8abdfdf28a561194598a747d35b75c3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3cb0d3c01d48a88ffcabfb2fa31f5376') in 0.217356 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/MedievalTownExteriors/Textures/Building_Texture.tga
+  artifactKey: Guid(a78bc10e4f44759458a318112a8705d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MedievalTownExteriors/Textures/Building_Texture.tga using Guid(a78bc10e4f44759458a318112a8705d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '470cd9ccd39ad80e8380d6776fc135fe') in 0.152674 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/StixGames/GrassShader/Example/AlpineScene/Textures/GrassUnprocessed/BladeOfGrass/BladeOfGrass 20.png
+  artifactKey: Guid(1a9a628b9e5d64846802de200b8a94c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StixGames/GrassShader/Example/AlpineScene/Textures/GrassUnprocessed/BladeOfGrass/BladeOfGrass 20.png using Guid(1a9a628b9e5d64846802de200b8a94c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7dec1ecb77c6ee2ab8c9cb7bf383b78') in 0.364373 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/ExampleAssets/Textures/Props/Construction_Light/ConstructionLight_MetallicOcculusionSmoothness.tif
+  artifactKey: Guid(9a81f1a59f171804e84fce76584bdcb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Textures/Props/Construction_Light/ConstructionLight_MetallicOcculusionSmoothness.tif using Guid(9a81f1a59f171804e84fce76584bdcb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94108ef88ec19b33419aab3ab62ee6a8') in 0.012989 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/NEXTLOG_CreaturePack_Part01/Creatures_Slime/Textures/Creatures_Slime_006.tga
+  artifactKey: Guid(e79980ae8df24094c83a025b18fab233) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NEXTLOG_CreaturePack_Part01/Creatures_Slime/Textures/Creatures_Slime_006.tga using Guid(e79980ae8df24094c83a025b18fab233) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2a97ca3e428219c4cc4a0487448509b') in 0.027973 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/NEXTLOG_CreaturePack_Part01/Creatures_Slime/Textures/Creatures_Slime_005.tga
+  artifactKey: Guid(0cc7de19864233f409351e225b87f824) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NEXTLOG_CreaturePack_Part01/Creatures_Slime/Textures/Creatures_Slime_005.tga using Guid(0cc7de19864233f409351e225b87f824) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5900d7e43b4515a24f213c8894ea00c') in 0.017177 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/StixGames/GrassShader/Example/AlpineScene/Textures/GrassUnprocessed/BladeOfGrass/BladeOfGrass 16.png
+  artifactKey: Guid(1e054abaf0a55df48bc97f637d5a1d0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StixGames/GrassShader/Example/AlpineScene/Textures/GrassUnprocessed/BladeOfGrass/BladeOfGrass 16.png using Guid(1e054abaf0a55df48bc97f637d5a1d0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfdc9f16778aedebe0fe39e511d24861') in 0.170519 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/StixGames/GrassShader/Example/GameScene/Textures/Crater_height.png
+  artifactKey: Guid(a842a1892c01caf408802b4edb174206) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StixGames/GrassShader/Example/GameScene/Textures/Crater_height.png using Guid(a842a1892c01caf408802b4edb174206) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6110b4ce8f74e3baac4d8f621e7108f') in 0.113716 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/StixGames/GrassShader/Example/AlpineScene/Textures/Grass/BladesOfGrass.png
+  artifactKey: Guid(6da7450042cef6546a00635f4275381a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StixGames/GrassShader/Example/AlpineScene/Textures/Grass/BladesOfGrass.png using Guid(6da7450042cef6546a00635f4275381a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b7efa996e2b3318881e50ac1e179423') in 0.288812 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 292.330522 seconds.
+  path: Assets/SD_RPG_Heroes_Pack/materials
+  artifactKey: Guid(7cc6c0427b1857b4593d23b36e8d8186) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SD_RPG_Heroes_Pack/materials using Guid(7cc6c0427b1857b4593d23b36e8d8186) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f6685fd396e1586dd42bad47490c7cd') in 0.003027 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 15.234657 seconds.
+  path: Assets/Low Poly Forest Set/FBX
+  artifactKey: Guid(8be97df47078ba7438932acc7b6d7567) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Forest Set/FBX using Guid(8be97df47078ba7438932acc7b6d7567) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d2d2cd058039dd7ee9ed7833657ba57') in 0.002740 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 75.268029 seconds.
+  path: Assets/New Terrain.asset
+  artifactKey: Guid(077bacd6c1103774481c5a6419ec3b86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Terrain.asset using Guid(077bacd6c1103774481c5a6419ec3b86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '440b9b94850a705253195fff597c60fc') in 0.257670 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 35.271791 seconds.
+  path: Assets/Low Poly Forest Set/FBX/Tree 03.FBX
+  artifactKey: Guid(ed8de1bcffd2b8d4e96b7312428fb8fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Forest Set/FBX/Tree 03.FBX using Guid(ed8de1bcffd2b8d4e96b7312428fb8fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97b38020e18e3e1b20551d3329cf9f9c') in 0.060994 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 33.592521 seconds.
+  path: Assets/StixGames/GrassShader/Example/AlpineScene/Materials/small_house1.mat
+  artifactKey: Guid(efb49f6289e84674f81d6f7b48b35500) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StixGames/GrassShader/Example/AlpineScene/Materials/small_house1.mat using Guid(efb49f6289e84674f81d6f7b48b35500) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '868fa3b50c4af4cbce46f858abd68854') in 0.815904 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.008608 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Runtime/Materials/SpatialMappingOcclusion.mat
+  artifactKey: Guid(b51db210fe78df745a372851b3db949e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/Runtime/Materials/SpatialMappingOcclusion.mat using Guid(b51db210fe78df745a372851b3db949e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1901a9e1eb2ed1e1b8f4b34f32d866a') in 0.024336 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Runtime/Materials/TerrainLit.mat
+  artifactKey: Guid(594ea882c5a793440b60ff72d896021e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/Runtime/Materials/TerrainLit.mat using Guid(594ea882c5a793440b60ff72d896021e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b69c94d9be207bac1210fe042f2e75b') in 2.898708 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Runtime/Materials/SpriteMask-Default.mat
+  artifactKey: Guid(15d0c3709176029428a0da2f8cecf0b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/Runtime/Materials/SpriteMask-Default.mat using Guid(15d0c3709176029428a0da2f8cecf0b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9016a1cfcf622cd46c4f76de4f8f700') in 0.033775 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/StixGames/GrassShader/Example/AlpineScene/Materials/Tree 3.mat
+  artifactKey: Guid(756b55539c692a74abdbbd53863e8f43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StixGames/GrassShader/Example/AlpineScene/Materials/Tree 3.mat using Guid(756b55539c692a74abdbbd53863e8f43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52b7a313233cb163ef5b947969789d3f') in 0.016430 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/MedievalTownExteriors/Meshes/Materials/unnamed.mat
+  artifactKey: Guid(402bc43c60a1b9f43b1d2deadb1cdc4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MedievalTownExteriors/Meshes/Materials/unnamed.mat using Guid(402bc43c60a1b9f43b1d2deadb1cdc4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dabe3dd3a7762ae6a0b56fb2579d909d') in 0.029230 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/StixGames/GrassShader/Example/AlpineScene/Materials/small_house3.mat
+  artifactKey: Guid(6548cda5b563601498d13a5fdff3e84a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StixGames/GrassShader/Example/AlpineScene/Materials/small_house3.mat using Guid(6548cda5b563601498d13a5fdff3e84a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94632b1f7bf0bad1ca960d569776eb09') in 0.317252 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/ExampleAssets/Materials/Stud_Mat.mat
+  artifactKey: Guid(027cb3d3d7dc79d41ad763e01759de07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Materials/Stud_Mat.mat using Guid(027cb3d3d7dc79d41ad763e01759de07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '400a3cf2d570c43712a2c0aaa88c80e5') in 0.020730 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/StixGames/GrassShader/Example/GameScene/Materials/TreeCutout.mat
+  artifactKey: Guid(4e9ff85cdd3a25e4882de9d6181458db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StixGames/GrassShader/Example/GameScene/Materials/TreeCutout.mat using Guid(4e9ff85cdd3a25e4882de9d6181458db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0bebb936399ad47accab66cc23823ca0') in 0.075659 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/ExampleAssets/Materials/Strap_Mat.mat
+  artifactKey: Guid(81c1860e7800e5340bf8a54c565ba9ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Materials/Strap_Mat.mat using Guid(81c1860e7800e5340bf8a54c565ba9ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3f8fcd2fc625746e2471a9ae879ea97') in 0.018076 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/StixGames/GrassShader/Example/Example/Material/TrailInteraction.mat
+  artifactKey: Guid(16cc1953eb5c80b4785015153720f017) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StixGames/GrassShader/Example/Example/Material/TrailInteraction.mat using Guid(16cc1953eb5c80b4785015153720f017) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd394071c1a267ce82a7ea7f66b3eee60') in 0.122708 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/StixGames/GrassShader/Example/AlpineScene/Materials/Tree 2.mat
+  artifactKey: Guid(27a0276eb9f4ce44ea811780052f0a90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StixGames/GrassShader/Example/AlpineScene/Materials/Tree 2.mat using Guid(27a0276eb9f4ce44ea811780052f0a90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7cde4f5907961709476f7c4eb07f0f95') in 0.040279 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Low Poly Forest Set/Materials/Tree Log 02.mat
+  artifactKey: Guid(8191163748bf38949b307500ecad571d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Forest Set/Materials/Tree Log 02.mat using Guid(8191163748bf38949b307500ecad571d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ef58944a0bbedcd83c977dc2c635212') in 0.178299 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/SD_RPG_Heroes_Pack/materials/wizardgirl.mat
+  artifactKey: Guid(37481bc935dd45c49a016b48dadd69a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SD_RPG_Heroes_Pack/materials/wizardgirl.mat using Guid(37481bc935dd45c49a016b48dadd69a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a566c99e7d51ade7e9fd3bbdb419fdce') in 2.545549 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/StixGames/GrassShader/Example/AlpineScene/Materials/Tree.mat
+  artifactKey: Guid(7584a049a664a2447b89a602778e364c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StixGames/GrassShader/Example/AlpineScene/Materials/Tree.mat using Guid(7584a049a664a2447b89a602778e364c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '191698dd4d78915d8915ea405e7d0bff') in 0.018971 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 485.007640 seconds.
+  path: Assets/ExampleAssets/Textures/Drywall/Drywall_Albedo.tif
+  artifactKey: Guid(eae496078d11426448124eaf8b285e6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Textures/Drywall/Drywall_Albedo.tif using Guid(eae496078d11426448124eaf8b285e6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1251434f51106f2de94ee8567efd742') in 1.460997 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/ExampleAssets/Textures/Drywall/DrywallPainted_Normal.tif
+  artifactKey: Guid(2cd242c9999e92b4ca96dab876cfaf13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Textures/Drywall/DrywallPainted_Normal.tif using Guid(2cd242c9999e92b4ca96dab876cfaf13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32c0ac8ace9eabc4b0f4b8e7bf96f123') in 0.121478 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/Low Poly Forest Set/Textures/env_mushroom02.psd
+  artifactKey: Guid(ad98a92b3bed7d647be695b951aae649) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Forest Set/Textures/env_mushroom02.psd using Guid(ad98a92b3bed7d647be695b951aae649) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f71f878bd9659e5826c9b8df1c316ba4') in 0.037744 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Low Poly Forest Set/Textures/env_mushroom01.psd
+  artifactKey: Guid(3524cba1c20995844b41e26040c68ec4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Forest Set/Textures/env_mushroom01.psd using Guid(3524cba1c20995844b41e26040c68ec4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c40bcdf46ae7a468574b9c7ddd92dc83') in 0.018930 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/ExampleAssets/Textures/Plastic/Elastic_MetallicOcculusionSmoothness.tif
+  artifactKey: Guid(f5df2fb0c070b57429f8ca23b216093b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Textures/Plastic/Elastic_MetallicOcculusionSmoothness.tif using Guid(f5df2fb0c070b57429f8ca23b216093b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9dd429954b67aa461d64681d3bf2e162') in 0.039237 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/StixGames/GrassShader/Example/GameScene/Textures/Particles/DustParticle.png
+  artifactKey: Guid(af231a76c8f32de4298b0673225673a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StixGames/GrassShader/Example/GameScene/Textures/Particles/DustParticle.png using Guid(af231a76c8f32de4298b0673225673a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b1bb5eab64f95f6f88a3fbfb67dd699') in 0.283564 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/ExampleAssets/Textures/Plastic/Elastic_Normal.tif
+  artifactKey: Guid(db17334dfe5991a4bbe241ee9a728c38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Textures/Plastic/Elastic_Normal.tif using Guid(db17334dfe5991a4bbe241ee9a728c38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb2d1079d175cf21223db99eb31bf434') in 0.015840 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.713505 seconds.
+  path: Assets/Low Poly Forest Set/Textures/env_rock01.psd
+  artifactKey: Guid(6abc5292ec4ed934baf13e63d1d7b36d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Forest Set/Textures/env_rock01.psd using Guid(6abc5292ec4ed934baf13e63d1d7b36d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62b3a303bdbd3e8340aab9f04cc748d5') in 0.088772 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Low Poly Forest Set/Textures/env_tree04.psd
+  artifactKey: Guid(5b86ec95aa35a2d46a6d5d82d2b3ac3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Forest Set/Textures/env_tree04.psd using Guid(5b86ec95aa35a2d46a6d5d82d2b3ac3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02ae190ab35e8c9886c01d40f9b9d462') in 0.015802 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.482492 seconds.
+  path: Assets/Low Poly Forest Set/Textures/env_treelog02.psd
+  artifactKey: Guid(bf75ee113ee3c674eb62ea8b3ea75c86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Forest Set/Textures/env_treelog02.psd using Guid(bf75ee113ee3c674eb62ea8b3ea75c86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62e754f146dbb4f781312312b8fa48a7') in 0.016045 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/StixGames/GrassShader/Example/GameScene/Textures/Particles/Explosion_baseColor.png
+  artifactKey: Guid(5bade0cae2c96ca4984685c278d62725) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StixGames/GrassShader/Example/GameScene/Textures/Particles/Explosion_baseColor.png using Guid(5bade0cae2c96ca4984685c278d62725) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a30931d4203fd45eb90a15fb3de54c91') in 0.148716 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/StixGames/GrassShader/Example/GameScene/Textures/Particles/FireRing_Emissive.png
+  artifactKey: Guid(7588c5ff83acc74488a20b7745cd20fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StixGames/GrassShader/Example/GameScene/Textures/Particles/FireRing_Emissive.png using Guid(7588c5ff83acc74488a20b7745cd20fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'acff9c9226843e470dbc501c5566dbaa') in 0.123261 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/StixGames/GrassShader/Example/GameScene/Textures/Particles/Explosion_emissive.png
+  artifactKey: Guid(ebbe5b8285aa570429ea3b498d71a6a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StixGames/GrassShader/Example/GameScene/Textures/Particles/Explosion_emissive.png using Guid(ebbe5b8285aa570429ea3b498d71a6a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6eece35ba05debb573e13ceeb8469dc') in 0.221369 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/StixGames/GrassShader/Example/AlpineScene/Textures/GrassUnprocessed/Flowers/Flower05.png
+  artifactKey: Guid(4c3c2d6d85a2c8245b01f3fbed6f88ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StixGames/GrassShader/Example/AlpineScene/Textures/GrassUnprocessed/Flowers/Flower05.png using Guid(4c3c2d6d85a2c8245b01f3fbed6f88ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c3186f2152a6df5b41e8b29824e1d86') in 0.127938 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/StixGames/GrassShader/Example/AlpineScene/Textures/GrassUnprocessed/Flowers/Flower01.png
+  artifactKey: Guid(8eef95462b92cda4ab1d726d2ff6cb77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StixGames/GrassShader/Example/AlpineScene/Textures/GrassUnprocessed/Flowers/Flower01.png using Guid(8eef95462b92cda4ab1d726d2ff6cb77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be82308df4dfddaa903bf04bd3de4f15') in 0.074495 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/StixGames/GrassShader/Example/AlpineScene/Textures/GrassUnprocessed/Flowers/Flower06.png
+  artifactKey: Guid(12a3dc3783455bd4dba23917916d463d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StixGames/GrassShader/Example/AlpineScene/Textures/GrassUnprocessed/Flowers/Flower06.png using Guid(12a3dc3783455bd4dba23917916d463d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f2569fdf0a7dcf2e5efd4127a00585d') in 0.137177 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.116079 seconds.
+  path: Assets/StixGames/GrassShader/Example/AlpineScene/Textures/GrassUnprocessed/Flowers/Flower07.png
+  artifactKey: Guid(7e79fe49fce4753429ee4af986fc4939) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StixGames/GrassShader/Example/AlpineScene/Textures/GrassUnprocessed/Flowers/Flower07.png using Guid(7e79fe49fce4753429ee4af986fc4939) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '048428478e8fd74d2584e1007df191f8') in 0.234478 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/StixGames/GrassShader/Example/AlpineScene/Textures/GrassUnprocessed/Flowers/Flower13.png
+  artifactKey: Guid(10ecaa201e334fe48b575cecb31c6dd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StixGames/GrassShader/Example/AlpineScene/Textures/GrassUnprocessed/Flowers/Flower13.png using Guid(10ecaa201e334fe48b575cecb31c6dd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a10547c3332ce3deddce71236756719') in 0.150593 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/StixGames/GrassShader/Example/AlpineScene/Textures/GrassUnprocessed/Flowers/Flower11.png
+  artifactKey: Guid(0df0dd616c0ebe744b6023787049b8ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StixGames/GrassShader/Example/AlpineScene/Textures/GrassUnprocessed/Flowers/Flower11.png using Guid(0df0dd616c0ebe744b6023787049b8ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'acd795188142e124397bb3ef8728f709') in 0.068936 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/StixGames/GrassShader/Example/AlpineScene/Textures/GrassUnprocessed/Flowers/Flower10.png
+  artifactKey: Guid(141ebb63a1cdb9442bc675241fcf4abd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StixGames/GrassShader/Example/AlpineScene/Textures/GrassUnprocessed/Flowers/Flower10.png using Guid(141ebb63a1cdb9442bc675241fcf4abd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80fab8882761a39dbb6c6940fba4526e') in 0.168028 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.021540 seconds.
+  path: Assets/StixGames/GrassShader/Example/AlpineScene/Textures/GrassUnprocessed/Flowers/Flower14.png
+  artifactKey: Guid(cfe85790109a47946a2cdace468c9a25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StixGames/GrassShader/Example/AlpineScene/Textures/GrassUnprocessed/Flowers/Flower14.png using Guid(cfe85790109a47946a2cdace468c9a25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08e9b62282ae95cf7f555bfc02a690d8') in 0.092519 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/StixGames/GrassShader/Example/AlpineScene/Textures/Grass/Flowers.png
+  artifactKey: Guid(151ba325d21f1584cac3e27b451eeede) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StixGames/GrassShader/Example/AlpineScene/Textures/Grass/Flowers.png using Guid(151ba325d21f1584cac3e27b451eeede) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e951dab746b76733bed465a48b4e35a8') in 0.261877 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.218661 seconds.
+  path: Assets/NEXTLOG_CreaturePack_Part01/Creatures_Slime/Effects/Textures/FX_LightFlash_001.tga
+  artifactKey: Guid(58c3b7b5fd7b56b48bbb2bf233544637) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NEXTLOG_CreaturePack_Part01/Creatures_Slime/Effects/Textures/FX_LightFlash_001.tga using Guid(58c3b7b5fd7b56b48bbb2bf233544637) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea38c943bf1482be2d9920970229953d') in 0.013267 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/NEXTLOG_CreaturePack_Part01/Creatures_Slime/Effects/Textures/FX_StateIcon_001.tga
+  artifactKey: Guid(ed85e9283e3bc7044afbd61ef8e54c13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NEXTLOG_CreaturePack_Part01/Creatures_Slime/Effects/Textures/FX_StateIcon_001.tga using Guid(ed85e9283e3bc7044afbd61ef8e54c13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9a978208cbdf90e62d76a8995bbb82f') in 0.015595 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/StixGames/GrassShader/Example/GameScene/Textures/GameSceneFloor_grassDensity.png
+  artifactKey: Guid(6089100abf1cd1f478b9e608515f48da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StixGames/GrassShader/Example/GameScene/Textures/GameSceneFloor_grassDensity.png using Guid(6089100abf1cd1f478b9e608515f48da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15b07d81fc6847d2701dd969b57bea4b') in 0.312424 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/StixGames/GrassShader/Example/GameScene/Textures/GameSceneFloor_color.png
+  artifactKey: Guid(2690b81c2605e0d43bf6b3b75902e987) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StixGames/GrassShader/Example/GameScene/Textures/GameSceneFloor_color.png using Guid(2690b81c2605e0d43bf6b3b75902e987) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f647d40826433363c481871a258ff145') in 0.153266 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/StixGames/GrassShader/Example/AlpineScene/Textures/Terrain/grass_normal.png
+  artifactKey: Guid(a2e5716405f21ea4b85b2cb59892aafc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StixGames/GrassShader/Example/AlpineScene/Textures/Terrain/grass_normal.png using Guid(a2e5716405f21ea4b85b2cb59892aafc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7a2a18d94af97154011e271eae41a8b') in 0.176039 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000094 seconds.
+  path: Assets/MedievalTownExteriors/Textures/Grass_Texture.png
+  artifactKey: Guid(b42c396f96dc37d4b8d65127d47e8be4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MedievalTownExteriors/Textures/Grass_Texture.png using Guid(b42c396f96dc37d4b8d65127d47e8be4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1c2651801d602a7d882c47607a7f053') in 0.140549 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/ExampleAssets/Textures/Props/Hammer/Hammer_Albedo.tif
+  artifactKey: Guid(59c8de363dc14c54986d0751c2c38342) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Textures/Props/Hammer/Hammer_Albedo.tif using Guid(59c8de363dc14c54986d0751c2c38342) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '341dbbc82115ea85df8a3a5812c3136c') in 0.042141 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/ExampleAssets/Textures/Props/Jigsaw/Jigsaw_Albedo.tif
+  artifactKey: Guid(b3f247b26e080ca468f1daa963c192ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Textures/Props/Jigsaw/Jigsaw_Albedo.tif using Guid(b3f247b26e080ca468f1daa963c192ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bcb35ef960160d5db8015463a5f42c55') in 0.070356 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/ExampleAssets/Textures/Concrete/Ground_MetallicOcculusionSmoothness.tif
+  artifactKey: Guid(a8d38587573a5f34c91c4ae0fbd8bfef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Textures/Concrete/Ground_MetallicOcculusionSmoothness.tif using Guid(a8d38587573a5f34c91c4ae0fbd8bfef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '593dbbf1d3adf1df952b5a97c1ee6bd6') in 0.161475 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/StixGames/GrassShader/Example/Example/Textures/Grass.png
+  artifactKey: Guid(e62a0fe59cdbd9b42a074d9d5dca6465) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StixGames/GrassShader/Example/Example/Textures/Grass.png using Guid(e62a0fe59cdbd9b42a074d9d5dca6465) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ccac6a7bb7ebd4e4207348dcca7b6487') in 0.137171 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/StixGames/GrassShader/Example/GameScene/Textures/LowPolyFarm_basecolor.png
+  artifactKey: Guid(105996b93f62b55419d9104b821dd995) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StixGames/GrassShader/Example/GameScene/Textures/LowPolyFarm_basecolor.png using Guid(105996b93f62b55419d9104b821dd995) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e5b905a422a665bb899c78e07312633') in 0.122935 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/ExampleAssets/Textures/Props/Jigsaw/Jigsaw_Normal.tif
+  artifactKey: Guid(06969fc081d8cc146af6634f75abe652) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Textures/Props/Jigsaw/Jigsaw_Normal.tif using Guid(06969fc081d8cc146af6634f75abe652) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2dfdc16e0d729960012214ecd2f75cb') in 0.012056 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/StixGames/GrassShader/Example/GameScene/Textures/LowPolyTank_metallic_smoothness.png
+  artifactKey: Guid(0f16dd52a4d1bb5489cc74046228582d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StixGames/GrassShader/Example/GameScene/Textures/LowPolyTank_metallic_smoothness.png using Guid(0f16dd52a4d1bb5489cc74046228582d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '741b39040a741ba94e362f4a64933c82') in 0.318707 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.218721 seconds.
+  path: Assets/StixGames/NatureCore/Utility/UnityOctree/marker.tif
+  artifactKey: Guid(1107feee395f6bf449de6678527683c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StixGames/NatureCore/Utility/UnityOctree/marker.tif using Guid(1107feee395f6bf449de6678527683c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '506dee0213bde3137382762b49160a36') in 0.167982 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/StixGames/GrassShader/Example/AlpineScene/Textures/Ruins/medium_house1_normal.png
+  artifactKey: Guid(409e3ea7a4d72f44fac4381ef6588bde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StixGames/GrassShader/Example/AlpineScene/Textures/Ruins/medium_house1_normal.png using Guid(409e3ea7a4d72f44fac4381ef6588bde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e251c57ce0ca57f005d478e3035cd79') in 0.229488 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/ExampleAssets/Textures/Metal/Metal_Normal.tif
+  artifactKey: Guid(3b0b7c1f4ac9f6b499e27cf84e722ff4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Textures/Metal/Metal_Normal.tif using Guid(3b0b7c1f4ac9f6b499e27cf84e722ff4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9267d4989e56a852624a93167abc7934') in 0.081217 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/StixGames/GrassShader/Example/AlpineScene/Textures/Ruins/medium_house2_normal.png
+  artifactKey: Guid(250243c92ee3f1744bc562a35b583e41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StixGames/GrassShader/Example/AlpineScene/Textures/Ruins/medium_house2_normal.png using Guid(250243c92ee3f1744bc562a35b583e41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '355dde80f1806eb54b7b968870062c72') in 0.145764 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/ExampleAssets/Textures/Wood/OBS_Albedo.tif
+  artifactKey: Guid(7140a9bc83a12ea49a081dda89216fff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Textures/Wood/OBS_Albedo.tif using Guid(7140a9bc83a12ea49a081dda89216fff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7cc03eb05dc09eea566590e9f4ba92bd') in 0.126628 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/ExampleAssets/Textures/Wood/OBS_MetallicOcculusionSmoothness.tif
+  artifactKey: Guid(22638a9216f1ebf4cb43273a00879f51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Textures/Wood/OBS_MetallicOcculusionSmoothness.tif using Guid(22638a9216f1ebf4cb43273a00879f51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'edc0cce8f8cf7436d89b458966b30134') in 0.111511 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/StixGames/GrassShader/Example/AlpineScene/Textures/Terrain/mud_normal.png
+  artifactKey: Guid(a4da709842fdd51459d8dfc3d6823008) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StixGames/GrassShader/Example/AlpineScene/Textures/Terrain/mud_normal.png using Guid(a4da709842fdd51459d8dfc3d6823008) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2abe406c3699cba327b368bab1b31c4') in 0.096869 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/ExampleAssets/Textures/Props/Paint/Paint1G_MetallicOcculusionRoughness.tif
+  artifactKey: Guid(ca084ebab0cef7c4ba746cdb442f9c1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Textures/Props/Paint/Paint1G_MetallicOcculusionRoughness.tif using Guid(ca084ebab0cef7c4ba746cdb442f9c1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d309879d480dd6b1979bac228a61d80') in 0.021065 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/StixGames/GrassShader/Example/AlpineScene/Textures/Terrain/mud_albedo_smoothness.png
+  artifactKey: Guid(00d8db00f8f46374bbe567166b734f4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StixGames/GrassShader/Example/AlpineScene/Textures/Terrain/mud_albedo_smoothness.png using Guid(00d8db00f8f46374bbe567166b734f4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '563c926bb511229f78215d59acadb8a5') in 0.097304 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/ExampleAssets/Textures/Props/Paint/Paintbrush_Normal.tif
+  artifactKey: Guid(09e745bf0b8ff6a4bb5785d14168289a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Textures/Props/Paint/Paintbrush_Normal.tif using Guid(09e745bf0b8ff6a4bb5785d14168289a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9c53763ed6f7845e9947d6e05b2aa80') in 0.014444 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/ExampleAssets/Textures/Plastic/Plastic_AlbedoSmoothness.tif
+  artifactKey: Guid(1f89fed00b6bc904c861ab847a811cb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Textures/Plastic/Plastic_AlbedoSmoothness.tif using Guid(1f89fed00b6bc904c861ab847a811cb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '175f4db0798dbab37267eed17e9b53e4') in 0.035009 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/ExampleAssets/Textures/Plastic/PlasticRidges_Albedo.tif
+  artifactKey: Guid(ecb23393a0d1b424a82fff68a4c00a66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Textures/Plastic/PlasticRidges_Albedo.tif using Guid(ecb23393a0d1b424a82fff68a4c00a66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82e1e3e967425c5c12ddbc59ef7b9c57') in 0.018349 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.040306 seconds.
+  path: Assets/ExampleAssets/Textures/Plastic/PlasticRidges_MetallicOcculusionSmoothness.tif
+  artifactKey: Guid(201c1f77fe872924a86132486bc97e82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Textures/Plastic/PlasticRidges_MetallicOcculusionSmoothness.tif using Guid(201c1f77fe872924a86132486bc97e82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0946bac4cd103e303fa7627a9aa323cf') in 0.018759 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/ExampleAssets/Textures/Plastic/PlasticRough_MetallicOcculusionSmoothness.tif
+  artifactKey: Guid(ee7680f1374ab4449b6d5f6b2c2c1936) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Textures/Plastic/PlasticRough_MetallicOcculusionSmoothness.tif using Guid(ee7680f1374ab4449b6d5f6b2c2c1936) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f836d44ee4ff9763034716c77eab1094') in 0.017621 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/ExampleAssets/Textures/Plastic/PlasticRough_Albedo.tif
+  artifactKey: Guid(7b82d12aad56cc445b99fd1cf06a232d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Textures/Plastic/PlasticRough_Albedo.tif using Guid(7b82d12aad56cc445b99fd1cf06a232d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '723d3eb9b57094fac0784536630f9ed2') in 0.019244 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/ExampleAssets/Textures/Wood/Plywood_Normal.tif
+  artifactKey: Guid(2148396b133b56f40baa7ea4fd22982a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Textures/Wood/Plywood_Normal.tif using Guid(2148396b133b56f40baa7ea4fd22982a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40d0322aeeb4d466ac8b5e2ed3351647') in 0.016711 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.438578 seconds.
+  path: Assets/Low Poly Forest Set/Materials/NewBrush.brush
+  artifactKey: Guid(52b051a607ac52c4791586e81f7b7236) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Forest Set/Materials/NewBrush.brush using Guid(52b051a607ac52c4791586e81f7b7236) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7bdc26faf7bfe2866f21185efbd14e2') in 0.059738 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 21.516966 seconds.
+  path: Assets/Low Poly Forest Set/Materials/NewBrush 1.brush
+  artifactKey: Guid(23bdb1c303e262d44a0c79a596800d1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Forest Set/Materials/NewBrush 1.brush using Guid(23bdb1c303e262d44a0c79a596800d1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee2a0cb2120a7e3f5bff01bd93858fa1') in 0.014420 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.737961 seconds.
+  path: Assets/Low Poly Forest Set/Materials/NewBrush 2.brush
+  artifactKey: Guid(a389d966af635904294ecaaec51ed87c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Forest Set/Materials/NewBrush 2.brush using Guid(a389d966af635904294ecaaec51ed87c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22ea87770f560419e457bfee983756bb') in 0.635918 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.621340 seconds.
+  path: Assets/StixGames/GrassShader/Example/AlpineScene/AlpineTerrain.asset
+  artifactKey: Guid(ec9f17f181ef1a74a8f5846d768fb6ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StixGames/GrassShader/Example/AlpineScene/AlpineTerrain.asset using Guid(ec9f17f181ef1a74a8f5846d768fb6ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e69dd0dd1382285d7ccd85b65fdb8be0') in 1.402564 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 27.432681 seconds.
+  path: Assets/Low Poly Forest Set/Materials/NewBrush 3.brush
+  artifactKey: Guid(af48b5c361949ce4989a412c5e3e7838) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Forest Set/Materials/NewBrush 3.brush using Guid(af48b5c361949ce4989a412c5e3e7838) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27d753cbef32da5f9c476c5d521686b5') in 0.015486 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 31.428779 seconds.
+  path: Assets/StixGames/GrassShader/Example/AlpineScene/Materials/road.mat
+  artifactKey: Guid(4447dc53e643d4b4989598bbb039bb29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StixGames/GrassShader/Example/AlpineScene/Materials/road.mat using Guid(4447dc53e643d4b4989598bbb039bb29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7031c960948adb5ea733062008fcebb') in 0.943366 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/ExampleAssets/Materials/Plastic_Ridges_Mat.mat
+  artifactKey: Guid(c05de7c865075334786e6a47a543af72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Materials/Plastic_Ridges_Mat.mat using Guid(c05de7c865075334786e6a47a543af72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd569b3918195cfcd00677e539d624437') in 0.018057 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/ExampleAssets/Models/safetygoggles_low.fbx
+  artifactKey: Guid(6296e48663fd7ad46b1a2af507f871cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Models/safetygoggles_low.fbx using Guid(6296e48663fd7ad46b1a2af507f871cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8caddc5f2e85e53c1386983de23686c0') in 0.086430 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/ExampleAssets/Materials/Plastic_Rough_Mat.mat
+  artifactKey: Guid(a5aaee4111611af43b5abbff184fe5fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Materials/Plastic_Rough_Mat.mat using Guid(a5aaee4111611af43b5abbff184fe5fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d932c851e7849c00f0f8a895ef47cc7') in 0.020904 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/ExampleAssets/Models/Workbench.fbx
+  artifactKey: Guid(efe9381559c516743bd05cef82f39ebb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Models/Workbench.fbx using Guid(efe9381559c516743bd05cef82f39ebb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e05c4f69d648609555b459dc3c13a63b') in 0.176215 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/ExampleAssets/Materials/Plastic_White_Mat.mat
+  artifactKey: Guid(6cfe423139c361a459da7ed9831d4b1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Materials/Plastic_White_Mat.mat using Guid(6cfe423139c361a459da7ed9831d4b1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea95db9a94f76b166f579051491e7db1') in 0.025745 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/ExampleAssets/Models/Workbench_Low.fbx
+  artifactKey: Guid(ff6dc36862fe41641bb21568d92147c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Models/Workbench_Low.fbx using Guid(ff6dc36862fe41641bb21568d92147c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d2fd9660f3e6f1810aac861748357a0') in 0.134368 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Materials/props.mat
+  artifactKey: Guid(35a39522d20b10e41a88552ab62e9be3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/props.mat using Guid(35a39522d20b10e41a88552ab62e9be3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c351cb8f8c0d65b7c71801a6856a819') in 0.095769 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/ExampleAssets/Materials/Plastic_Transparent.mat
+  artifactKey: Guid(8a38b7350df9a9c438e568993a00e5c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Materials/Plastic_Transparent.mat using Guid(8a38b7350df9a9c438e568993a00e5c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fc9785f7f090143a43a1382111974d9') in 2.606116 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/StixGames/GrassShader/Example/AlpineScene/Models/Materials/No Name.mat
+  artifactKey: Guid(ca3c21a7cddc15e499e4790f54370e6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StixGames/GrassShader/Example/AlpineScene/Models/Materials/No Name.mat using Guid(ca3c21a7cddc15e499e4790f54370e6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b41e3cc65a1d26e99f4a30470fd7aa0') in 0.014664 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/ExampleAssets/Materials/Paint1G_WAnim_Material.mat
+  artifactKey: Guid(55c183dc45153be48a45c4e530127fb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Materials/Paint1G_WAnim_Material.mat using Guid(55c183dc45153be48a45c4e530127fb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35b18e4af7fe0f7bcd0f1954f8e21000') in 0.041642 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/ExampleAssets/Materials/PaintBrush_Mat.mat
+  artifactKey: Guid(539165557a9d3744680bb21164bea45e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Materials/PaintBrush_Mat.mat using Guid(539165557a9d3744680bb21164bea45e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc1e58a4c724d714c2cb995fdfd082f4') in 0.031429 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/ExampleAssets/Materials/OBS_Mat.mat
+  artifactKey: Guid(c438e5c679f1be040a135443008e2fce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Materials/OBS_Mat.mat using Guid(c438e5c679f1be040a135443008e2fce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e719589f978ed3738c7b0f0c8c1eb9a2') in 0.056584 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/StixGames/GrassShader/Example/GameScene/Models/Materials/No Name.mat
+  artifactKey: Guid(5c147727b6f590e438e831c912061bac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StixGames/GrassShader/Example/GameScene/Models/Materials/No Name.mat using Guid(5c147727b6f590e438e831c912061bac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28147240dc45ab24137f03a94d260967') in 0.035986 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/ExampleAssets/Models/Workshop_Set.fbx
+  artifactKey: Guid(47616bd0cda748d4cbedcfc908506b9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Models/Workshop_Set.fbx using Guid(47616bd0cda748d4cbedcfc908506b9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '103f9d8c745deb60e7dc3069c4ff3adc') in 0.380194 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/ExampleAssets/Materials/Plastic_Yellow_Mat.mat
+  artifactKey: Guid(bd2d742ee2ce7a740ae0cf992a38be74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Materials/Plastic_Yellow_Mat.mat using Guid(bd2d742ee2ce7a740ae0cf992a38be74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d695d39d6b539549581254e74eba167') in 0.029841 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/StixGames/GrassShader/Example/GameScene/Materials/Sky.mat
+  artifactKey: Guid(43eb96f3e88a6d0489076c23f16d8ee7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StixGames/GrassShader/Example/GameScene/Materials/Sky.mat using Guid(43eb96f3e88a6d0489076c23f16d8ee7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b02ad61d2d01dd286326c6d9167e35b') in 0.174454 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.443337 seconds.
+  path: Assets/NEXTLOG_CreaturePack_Part01/Creatures_Slime/Materials/Mtrl_Creatures_SlimeElite_002.mat
+  artifactKey: Guid(0d6663413942e574ba0f7cb623ad228b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NEXTLOG_CreaturePack_Part01/Creatures_Slime/Materials/Mtrl_Creatures_SlimeElite_002.mat using Guid(0d6663413942e574ba0f7cb623ad228b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e9ed2fdf0806aa18e0e8c665411cf98') in 0.016952 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/NEXTLOG_CreaturePack_Part01/Creatures_Slime/Effects/Mtrl_Slime_Stun_Blink_001.mat
+  artifactKey: Guid(5d58fd7cae1c02a4582525cc36bc1a48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NEXTLOG_CreaturePack_Part01/Creatures_Slime/Effects/Mtrl_Slime_Stun_Blink_001.mat using Guid(5d58fd7cae1c02a4582525cc36bc1a48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37f67991dbc55e68a1e41b3bcd76009b') in 0.015587 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/NEXTLOG_CreaturePack_Part01/Creatures_Slime/Effects/Mtrl_ShockWave_001.mat
+  artifactKey: Guid(80a8ebcf46283ee46a43201674633ffb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NEXTLOG_CreaturePack_Part01/Creatures_Slime/Effects/Mtrl_ShockWave_001.mat using Guid(80a8ebcf46283ee46a43201674633ffb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b009fd86076655291aa8e36e628c47c') in 0.019196 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/NEXTLOG_CreaturePack_Part01/Creatures_Slime/Effects/Mtrl_LightFlash_001.mat
+  artifactKey: Guid(a0feb382d21e29742b54cc943d2814d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NEXTLOG_CreaturePack_Part01/Creatures_Slime/Effects/Mtrl_LightFlash_001.mat using Guid(a0feb382d21e29742b54cc943d2814d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a833fe9722957125912729046370a4aa') in 0.017788 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.440644 seconds.
+  path: Assets/NEXTLOG_CreaturePack_Part01/Creatures_Slime/Materials/Mtrl_Creatures_Slime_001.mat
+  artifactKey: Guid(8107ac903bfa5954b87635a6c65a5402) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NEXTLOG_CreaturePack_Part01/Creatures_Slime/Materials/Mtrl_Creatures_Slime_001.mat using Guid(8107ac903bfa5954b87635a6c65a5402) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1bb3b80483f80e8e07065e8388132ed0') in 0.185853 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/NEXTLOG_CreaturePack_Part01/Creatures_Slime/Materials/Mtrl_Creatures_Slime_005.mat
+  artifactKey: Guid(845414dc408db4b41b53b579cef124c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NEXTLOG_CreaturePack_Part01/Creatures_Slime/Materials/Mtrl_Creatures_Slime_005.mat using Guid(845414dc408db4b41b53b579cef124c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7fdb6c98b8ea15d27a2cbc13198d0b1') in 0.018369 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/NEXTLOG_CreaturePack_Part01/Creatures_Slime/Materials/Mtrl_Creatures_Slime_004.mat
+  artifactKey: Guid(5201b6890b160074b8b81a6ad56260cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NEXTLOG_CreaturePack_Part01/Creatures_Slime/Materials/Mtrl_Creatures_Slime_004.mat using Guid(5201b6890b160074b8b81a6ad56260cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b8565488132e1f20181ba4ab38d2938') in 0.121277 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/NEXTLOG_CreaturePack_Part01/Creatures_Slime/Materials/Mtrl_Creatures_Slime_006.mat
+  artifactKey: Guid(ef4099e7482e53c46a7d64335ebc5678) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NEXTLOG_CreaturePack_Part01/Creatures_Slime/Materials/Mtrl_Creatures_Slime_006.mat using Guid(ef4099e7482e53c46a7d64335ebc5678) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '065a7558a6075f76f9c3c442f68501fa') in 0.027833 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.046287 seconds.
+  path: Assets/StixGames/GrassShader/Example/AlpineScene/Materials/medium_house2.mat
+  artifactKey: Guid(2530ac2895e3ae24d961135df38c1e34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StixGames/GrassShader/Example/AlpineScene/Materials/medium_house2.mat using Guid(2530ac2895e3ae24d961135df38c1e34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '062378e3cdaac60111ef92018f25527c') in 0.141965 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.308100 seconds.
+  path: Assets/StixGames/GrassShader/Example/GameScene/Materials/LowPolyTank.mat
+  artifactKey: Guid(5f87bcb2846a3234ab6ffc272d8f8b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StixGames/GrassShader/Example/GameScene/Materials/LowPolyTank.mat using Guid(5f87bcb2846a3234ab6ffc272d8f8b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c22cabda1cb945011dcdc72a2f3ad1d5') in 0.053398 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/StixGames/GrassShader/Example/AlpineScene/Materials/medium_house1.mat
+  artifactKey: Guid(4d01979af4512014ebb6be6eaf403f42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StixGames/GrassShader/Example/AlpineScene/Materials/medium_house1.mat using Guid(4d01979af4512014ebb6be6eaf403f42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54846c5ba23a4c5fb7f4ca0253ae7f32') in 0.202888 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/ExampleAssets/Models/Stud.fbx
+  artifactKey: Guid(34624edaccd9d704a95ed404d919b492) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Models/Stud.fbx using Guid(34624edaccd9d704a95ed404d919b492) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42bb2ead574691a38151d982640b2c99') in 0.055090 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 69.075503 seconds.
+  path: Assets/ExampleAssets/Materials/LightBulb_Mat.mat
+  artifactKey: Guid(ec739259ec61f5d4ba3ed6d34fd802a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Materials/LightBulb_Mat.mat using Guid(ec739259ec61f5d4ba3ed6d34fd802a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a26bf08906fe5f1e698045775c899bd3') in 2.143910 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/StixGames/GrassShader/Example/GameScene/Materials/FireRing.mat
+  artifactKey: Guid(15fe4d1ef6934ae4687ed21a6f532e7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StixGames/GrassShader/Example/GameScene/Materials/FireRing.mat using Guid(15fe4d1ef6934ae4687ed21a6f532e7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '868a5d7ec264333fd5d97b4c481c33b9') in 0.046260 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/ExampleAssets/Materials/DryWall_Mat.mat
+  artifactKey: Guid(a68228c24abfa2f4b8954d7b0148f799) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Materials/DryWall_Mat.mat using Guid(a68228c24abfa2f4b8954d7b0148f799) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fc93bf082243395fab98e37f80ca276') in 0.049719 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Packages/com.unity.searcher/Editor/Resources/FlatSkin/Font/Roboto-BlackItalic.ttf
+  artifactKey: Guid(f95147a9bab9fe649b8070170fa7ebd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.searcher/Editor/Resources/FlatSkin/Font/Roboto-BlackItalic.ttf using Guid(f95147a9bab9fe649b8070170fa7ebd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f98276caa60f47cc168bec03b1d8f72') in 0.084155 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/StixGames/GrassShader/Example/Example/Material/FlowerFloor.mat
+  artifactKey: Guid(247ca490ec95cbb4784483904e1bbe88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StixGames/GrassShader/Example/Example/Material/FlowerFloor.mat using Guid(247ca490ec95cbb4784483904e1bbe88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b274e3eb3b66f6bcc6a83007c397e87b') in 0.045889 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Packages/com.unity.searcher/Editor/Resources/FlatSkin/Font/Roboto-Bold.ttf
+  artifactKey: Guid(3750c318f40cab44a97d3a81beaefeb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.searcher/Editor/Resources/FlatSkin/Font/Roboto-Bold.ttf using Guid(3750c318f40cab44a97d3a81beaefeb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5291a7755d53265e347e5c71c456bd24') in 0.141533 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Low Poly Forest Set/Materials/Grass 02.mat
+  artifactKey: Guid(fb54da64afda39042882ff9dc1fc869a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Forest Set/Materials/Grass 02.mat using Guid(fb54da64afda39042882ff9dc1fc869a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13c0bdb5e08aff65e66858fef4b17501') in 0.013970 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/StixGames/GrassShader/Example/Example/Material/GrassMaterial.mat
+  artifactKey: Guid(943a832f8632c1c489f5f22d6ce5b23e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StixGames/GrassShader/Example/Example/Material/GrassMaterial.mat using Guid(943a832f8632c1c489f5f22d6ce5b23e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fedf9e4fc783c5ff58afaa09de42337') in 0.455442 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/StixGames/GrassShader/Example/Example/Material/BurnMaterial.mat
+  artifactKey: Guid(f3f41d846cb83f640b57d04ab9cbcdf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StixGames/GrassShader/Example/Example/Material/BurnMaterial.mat using Guid(f3f41d846cb83f640b57d04ab9cbcdf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8530f96df095b345b32bde8e6114de6b') in 0.049367 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/StixGames/GrassShader/Example/Example/Material/BlopDisplacement.mat
+  artifactKey: Guid(ff7e81cdba906f54b8d23bebe5c48ea6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StixGames/GrassShader/Example/Example/Material/BlopDisplacement.mat using Guid(ff7e81cdba906f54b8d23bebe5c48ea6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b622fa83a17f7ae58bbfd68175d0797e') in 0.019423 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/StixGames/GrassShader/Example/AlpineScene/Materials/cape_hill_4k.mat
+  artifactKey: Guid(abde6835b7fd2634aa426519a40611a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StixGames/GrassShader/Example/AlpineScene/Materials/cape_hill_4k.mat using Guid(abde6835b7fd2634aa426519a40611a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '839e5b95707cccf1cb810bc51870e862') in 0.121645 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/StixGames/GrassShader/Example/Example/Material/CropFloor.mat
+  artifactKey: Guid(b3f73f70560fa754c8957749764ab61a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StixGames/GrassShader/Example/Example/Material/CropFloor.mat using Guid(b3f73f70560fa754c8957749764ab61a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b31f57e2af0253b6132dea88433e662') in 0.050604 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Packages/com.unity.searcher/Editor/Resources/FlatSkin/Font/Roboto-Medium.ttf
+  artifactKey: Guid(a51a3aebb43ac044989270407476b208) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.searcher/Editor/Resources/FlatSkin/Font/Roboto-Medium.ttf using Guid(a51a3aebb43ac044989270407476b208) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f23d26e3d2e125215a77ab8e04c599b') in 0.071774 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Packages/com.unity.searcher/Editor/Resources/FlatSkin/Font/Roboto-BoldItalic.ttf
+  artifactKey: Guid(dfb97a9307a577a41bcacba34b9a7e32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.searcher/Editor/Resources/FlatSkin/Font/Roboto-BoldItalic.ttf using Guid(dfb97a9307a577a41bcacba34b9a7e32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1367b59407c104ce18c6124ea87d1da') in 0.067312 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Packages/com.unity.searcher/Editor/Resources/FlatSkin/Font/Roboto-LightItalic.ttf
+  artifactKey: Guid(5e63515167650a541b309ba3bfd4db3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.searcher/Editor/Resources/FlatSkin/Font/Roboto-LightItalic.ttf using Guid(5e63515167650a541b309ba3bfd4db3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ddb257300d71839cb0018a9d35c1204') in 0.061740 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/ExampleAssets/Materials/ConstructionLight_Mat.mat
+  artifactKey: Guid(49076442eeb7e054b8e8869f8b40656d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Materials/ConstructionLight_Mat.mat using Guid(49076442eeb7e054b8e8869f8b40656d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20b70399bad8c09c0cdc9aebac68ce4c') in 2.334258 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/StixGames/GrassShader/Example/GameScene/Materials/EnclosureCutout.mat
+  artifactKey: Guid(6cfff5317f944464888e3ac9a853da94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StixGames/GrassShader/Example/GameScene/Materials/EnclosureCutout.mat using Guid(6cfff5317f944464888e3ac9a853da94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15972758c45cad390e91867ab636541f') in 0.055150 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/StixGames/GrassShader/Example/GameScene/Materials/Crater.mat
+  artifactKey: Guid(89467448215663a4e95eb7fb344a8129) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StixGames/GrassShader/Example/GameScene/Materials/Crater.mat using Guid(89467448215663a4e95eb7fb344a8129) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b26aed9b7965c0262724bd2db811150') in 0.053769 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/StixGames/GrassShader/Example/GameScene/Materials/Explosion.mat
+  artifactKey: Guid(0ed155d0f8092a044be70ecdf22ed70a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StixGames/GrassShader/Example/GameScene/Materials/Explosion.mat using Guid(0ed155d0f8092a044be70ecdf22ed70a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa6e8deb898930de9bd1e5ddae60c927') in 0.040826 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/StixGames/GrassShader/Example/Example/Material/AlienMaterial.mat
+  artifactKey: Guid(669245a3a61d0db4faeb1b6dc0357b61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StixGames/GrassShader/Example/Example/Material/AlienMaterial.mat using Guid(669245a3a61d0db4faeb1b6dc0357b61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e259e1186abcf8cfae3142afbbf2c451') in 0.320792 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/StixGames/GrassShader/Example/GameScene/Materials/ExplosionBurn.mat
+  artifactKey: Guid(0447fdf5d0329544982e63a71e863c7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StixGames/GrassShader/Example/GameScene/Materials/ExplosionBurn.mat using Guid(0447fdf5d0329544982e63a71e863c7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1839a37dfa6db64aa4c39bcab58a17a') in 0.039604 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000102 seconds.
+  path: Assets/StixGames/GrassShader/Example/GameScene/Materials/LowPolySilo.mat
+  artifactKey: Guid(65b1e12c5f60ae1499fea246889b6d4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StixGames/GrassShader/Example/GameScene/Materials/LowPolySilo.mat using Guid(65b1e12c5f60ae1499fea246889b6d4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8de589b3d5ffb2e812b50c9a3e8e89c8') in 0.255573 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/ExampleAssets/Materials/Ground_Mat.mat
+  artifactKey: Guid(d92ef32394b5f474385d74b565a7bdd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Materials/Ground_Mat.mat using Guid(d92ef32394b5f474385d74b565a7bdd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '186424299318197e22cee90078233e21') in 0.047745 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/StixGames/GrassShader/Example/GameScene/Materials/GameGrassFloor.mat
+  artifactKey: Guid(cdf2fdb818be87c4182c8fe3daa937b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StixGames/GrassShader/Example/GameScene/Materials/GameGrassFloor.mat using Guid(cdf2fdb818be87c4182c8fe3daa937b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0138e72cabfe02a11b90b463aa9ef694') in 0.050867 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/StixGames/GrassShader/Example/GameScene/Materials/GameGrass.mat
+  artifactKey: Guid(36ad5d76c422b60469703d814c5203c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StixGames/GrassShader/Example/GameScene/Materials/GameGrass.mat using Guid(36ad5d76c422b60469703d814c5203c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30f2a18014998cca490fbba020057fda') in 0.329888 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/StixGames/GrassShader/Example/GameScene/Materials/DustParticle.mat
+  artifactKey: Guid(a06bab4978fff2a4f945984a7481c802) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StixGames/GrassShader/Example/GameScene/Materials/DustParticle.mat using Guid(a06bab4978fff2a4f945984a7481c802) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '554ba2e99f651467321f3a1ee0168d97') in 0.049236 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000082 seconds.
+  path: Packages/com.unity.searcher/Editor/Resources/FlatSkin/Font/Roboto-Italic.ttf
+  artifactKey: Guid(c839255fc8f6b4b4d90bf8c1af9f9bd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.searcher/Editor/Resources/FlatSkin/Font/Roboto-Italic.ttf using Guid(c839255fc8f6b4b4d90bf8c1af9f9bd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e56a54a239ee3515a8eb9cff71a8eba9') in 0.043876 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Packages/com.unity.searcher/Editor/Resources/FlatSkin/Font/Roboto-ThinItalic.ttf
+  artifactKey: Guid(b2ea3b3f1765e544b9eb5bd1a93a91ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.searcher/Editor/Resources/FlatSkin/Font/Roboto-ThinItalic.ttf using Guid(b2ea3b3f1765e544b9eb5bd1a93a91ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e591069b8bd4ad01ce57f64831ac644') in 0.072517 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/MedievalTownExteriors/Materials/GrassyRocks.mat
+  artifactKey: Guid(0458089f3e91ac5409d67af247b2d79f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MedievalTownExteriors/Materials/GrassyRocks.mat using Guid(0458089f3e91ac5409d67af247b2d79f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9afefbe995fcb33d879383c69731227') in 0.032969 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/StixGames/GrassShader/Example/GameScene/Models/Materials/CursorCenter.mat
+  artifactKey: Guid(ba4cfb80e186c71498f68e9a0960a44e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StixGames/GrassShader/Example/GameScene/Models/Materials/CursorCenter.mat using Guid(ba4cfb80e186c71498f68e9a0960a44e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88c1a632ebf5ce73082b8b3aaf48689a') in 0.022730 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Low Poly Forest Set/FBX/Tree 02.FBX
+  artifactKey: Guid(0ac8faaef904cb4408979dec1b6a91df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Forest Set/FBX/Tree 02.FBX using Guid(0ac8faaef904cb4408979dec1b6a91df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e19f12a48995b27c9f80f46be8dba258') in 0.083206 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Low Poly Forest Set/Materials/Ground.mat
+  artifactKey: Guid(0e1eaeb26c969fd45aa82c97a140ab71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Forest Set/Materials/Ground.mat using Guid(0e1eaeb26c969fd45aa82c97a140ab71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a228f538b4ded0ff119522fa03538da9') in 0.022256 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/StixGames/GrassShader/Example/GameScene/Materials/BuildingCutout.mat
+  artifactKey: Guid(0389ab5b3b403034f83043766a1e8851) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StixGames/GrassShader/Example/GameScene/Materials/BuildingCutout.mat using Guid(0389ab5b3b403034f83043766a1e8851) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4134409163764f0d5afddc78fe7fdb7') in 0.031501 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Materials/ground.mat
+  artifactKey: Guid(d2c48a084a0273b4bbab5e28d439abf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/ground.mat using Guid(d2c48a084a0273b4bbab5e28d439abf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65df747067c9d9aa55880375fad1e8ce') in 0.040912 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/ExampleAssets/Materials/DryWallPainted_Mat.mat
+  artifactKey: Guid(9b8eadc4de0544646b75ddcc43f8fd06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Materials/DryWallPainted_Mat.mat using Guid(9b8eadc4de0544646b75ddcc43f8fd06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4e2a026490f6a1a069a932ecfe75f2d') in 0.034864 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/StixGames/GrassShader/Example/GameScene/Materials/Fence.mat
+  artifactKey: Guid(308097dd3dc1a2c4cabbb09bb70fe56f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StixGames/GrassShader/Example/GameScene/Materials/Fence.mat using Guid(308097dd3dc1a2c4cabbb09bb70fe56f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06a9e18fe44fdb57c59f161236b102f0') in 0.091956 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Packages/com.unity.searcher/Editor/Resources/FlatSkin/Font/Roboto-Light.ttf
+  artifactKey: Guid(2a29e27936eb547458f646f71125b264) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.searcher/Editor/Resources/FlatSkin/Font/Roboto-Light.ttf using Guid(2a29e27936eb547458f646f71125b264) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82472d2428db03783061449921d35c5b') in 0.061330 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 134.126127 seconds.
+  path: Assets/Low Poly Forest Set/Prefabs/Tree Log 01.prefab
+  artifactKey: Guid(d9ef61c69be88324f8fb491d34483223) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Forest Set/Prefabs/Tree Log 01.prefab using Guid(d9ef61c69be88324f8fb491d34483223) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44d713c0508f9a9e71dae2b11c855a6a') in 0.016081 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.491623 seconds.
+  path: Assets/Low Poly Forest Set/Prefabs/Tree Log 02.prefab
+  artifactKey: Guid(57755aebab4bc0744a9c37becaadd2b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Forest Set/Prefabs/Tree Log 02.prefab using Guid(57755aebab4bc0744a9c37becaadd2b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '871d2fc10bbe22a7de91ed3df54b2148') in 0.012106 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.626774 seconds.
+  path: Assets/Low Poly Forest Set/Prefabs/Tree Log 04.prefab
+  artifactKey: Guid(4c47cb8adac56ac4fb6ab0ace3af305c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Forest Set/Prefabs/Tree Log 04.prefab using Guid(4c47cb8adac56ac4fb6ab0ace3af305c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec7aca18eddf8be1a8aeb823217544a5') in 0.035284 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 142.837985 seconds.
+  path: Assets/New Terrain 1.asset
+  artifactKey: Guid(6e3ef150625478847b4db8e72a12c266) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Terrain 1.asset using Guid(6e3ef150625478847b4db8e72a12c266) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The tree Tree 01 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+The tree Rock 03 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+ -> (artifact id: 'd552998b6d79e24bb82aa56f4535ab80') in 0.028736 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 35.791234 seconds.
+  path: Assets/Tree.prefab
+  artifactKey: Guid(5737117e4c38ecc4e83de1d13d996a45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tree.prefab using Guid(5737117e4c38ecc4e83de1d13d996a45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90f22d454059899c5f6222366b245d44') in 0.589077 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.565621 seconds.
+  path: Assets/GameUI.uss
+  artifactKey: Guid(6caa053c9aab30249be4f5c1a721f30b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameUI.uss using Guid(6caa053c9aab30249be4f5c1a721f30b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cadecfb5318a1719f497981cebb69416') in 0.005930 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.322955 seconds.
+  path: Assets/UniversalRenderPipelineGlobalSettings.asset
+  artifactKey: Guid(efabfe780c33e5f46b363bb0676120fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UniversalRenderPipelineGlobalSettings.asset using Guid(efabfe780c33e5f46b363bb0676120fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66dc2a6432e370b867d8d6fd039ca7bf') in 0.002967 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 25.429565 seconds.
+  path: Assets/Low Poly Forest Set/Scenes/Environment Scene.unity
+  artifactKey: Guid(139f47e41e52ae2458b5167f957e55f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Forest Set/Scenes/Environment Scene.unity using Guid(139f47e41e52ae2458b5167f957e55f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80be05e5eac51d9812ca743e9cc44855') in 0.002649 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 34.392762 seconds.
+  path: Assets/Low Poly Forest Set/Materials/New Terrain Material.mat
+  artifactKey: Guid(87c1eaee6d384eb42a4fdac8ec01932a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Forest Set/Materials/New Terrain Material.mat using Guid(87c1eaee6d384eb42a4fdac8ec01932a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'edc031271f3a48c8badaa37dc4c2ff43') in 0.122685 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 24.552505 seconds.
+  path: Assets/ExampleAssets/Materials/Hammer_Mat.mat
+  artifactKey: Guid(4efcffd7ae23f1e41943fd914b18da10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Materials/Hammer_Mat.mat using Guid(4efcffd7ae23f1e41943fd914b18da10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '985046431cf3554ee3203295265415f3') in 0.022277 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/ExampleAssets/Materials/Jigsaw_Mat.mat
+  artifactKey: Guid(801db2d997a562b4ea333aa4593ce0f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Materials/Jigsaw_Mat.mat using Guid(801db2d997a562b4ea333aa4593ce0f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79772819ed17d7bebb971fb6ca8b54c2') in 0.024372 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/StixGames/GrassShader/Example/AlpineScene/Materials/kiara_6_afternoon_4k.mat
+  artifactKey: Guid(e2794d71a588a1d458fac6d9eca183a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StixGames/GrassShader/Example/AlpineScene/Materials/kiara_6_afternoon_4k.mat using Guid(e2794d71a588a1d458fac6d9eca183a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a85140cc9ad289742b967bc8bafe745') in 0.034278 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
